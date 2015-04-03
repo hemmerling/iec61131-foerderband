@@ -1,0 +1,1706 @@
+%!PS-Adobe-3.0
+%%Title: Referenzdaten: Band2b_Gruppe03\
+%%Creator: PScript5.dll Version 5.2
+%%CreationDate: 12/12/2005 9:30:38
+%%For: Administrator
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (LaserWriter 12/640 PS) (2015.105) 1
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 10 11 585 831
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_VMErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if initgraphics courier setfont lmargin 720 moveto errorname
+(VMerror)eq{version cvi 2016 ge{userdict/ehsave known{clear userdict/ehsave get
+restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}if}if systemdict
+/showpage get exec(%%[ Error: )print errorname =print(; OffendingCommand: )
+print/command load =print( ]%%)= flush}if end end end}dup 0 systemdict put dup
+4 $brkpage put bind readonly put/currentpacking where{pop/setpacking where{pop
+oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(Dieser Druckauftrag erfordert mehr Speicher, als auf diesem Drucker vorhanden ist. )
+100 500
+(Versuchen Sie es mit einer oder mehreren der folgenden Methoden und drucken Sie dann erneut:)
+100 485(Wählen Sie für das Ausgabeformat die Option "Optimale Portierung".)115
+470
+(Stellen Sie sicher, daß auf der Registerkarte "Geräteeinstellungen" die Angabe für "Verfügbarer Postscript-Speicher" korrekt ist.)
+115 455(Reduzieren Sie die Anzahl der im Dokument verwendeten Schriftarten. )
+115 440(Drucken Sie das Dokument in verschiedenen Teilstücken. )115 425 12
+/Times-Roman showpage(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}
+if}bind def end version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg
+get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Duplex None
+1 dict dup /Duplex false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *BitsPerPixel None
+1 dict dup /PreRenderingEnhance false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Smoothing False
+2 dict dup /PostRenderingEnhance false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputOrder Normal
+1 dict dup /OutputFaceUp false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *TraySwitch False
+1 dict dup /TraySwitch false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize A4
+
+   2 dict dup /PageSize [595 842] put dup /ImagingBBox null put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory 4Meg
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalCassette1 False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalDuplexer False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 10.00063 830.99908 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Courier
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+7500 VM?
+/Courier FontHasEuro not
+{
+/Euro.Courier
+ [600 0 17 -12 578 584 ] 
+<9CF8EC0DD1C303F88DC1037FC201F760C201F7CEC201F8A5C201F76004DB06A8FB0FE32E
+F7278B08DA8BD8A8C8B80873BA0556644870478B08278B39C56DF208F776069FC205FB94
+068B968A968B96088B928B938C9208F7A6069FC205FBB106A3EAD3CCEB8B08D18BD071B1
+63084307C106F75507550656075AAE569D438B08FB188B2D2D70FB0D085106775405D106
+7A078B7E8C7F8C7E085706090E>
+AddEuroGlyph
+/Euro /Courier /Courier-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Courier mF 
+/F0S53 F0 [83.285 0 0 -83.285 0 0 ] mFS
+F0S53 Ji 
+412 70 M (SIMATIC              Band2b_Gruppe03\\...\\S7-Programm\(1\)\\Bausteine    12.12.2005 9:30:30)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b
+%%EndResource
+end reinitialize
+N 4732 95 M 405 95 I 405 103 I 4732 103 I 4732 95 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 1 von 2)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+/F0S49 F0 [73.266 0 0 -73.266 0 0 ] mFS
+F0S49 Ji 
+407 303 M (Eing\344nge, Ausg\344nge, Merker)[47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47 47  0]xS 
+0 Lw N 407 331 M 4682 331 I K 
+: N 857 404 3369 112 rp C 
+1 0 scol  L ; /F0S44 F0 [68.75 0 0 -68.75 0 0 ] mFS
+F0S44 Ji 
+1251 471 M (7)S 
+1557 471 M (6)S 
+1863 471 M (5)S 
+2170 471 M (4)S 
+2476 471 M (3)S 
+2782 471 M (2)S 
+3088 471 M (1)S 
+3395 471 M (0)S 
+3632 471 M ( B  W   D    )[41 41 41 41 41 41 41 41 41 41 41 41  0]xS 
+: N 857 404 3369 6 rp C 
+ L ; : N 857 510 3369 6 rp C 
+ L ; : N 857 516 3369 100 rp C 
+1 0 scol  L ; 870 571 M (EB 0)[41 41 41  0]xS 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Dib_L2 5.0 0
+/iw 0 d/ih 0 d/im_save 0 d/s 0 d/polarity 0 d/smoothflag 0 d/mystring 0 d/bpc 0
+d/maskcolor 0 d/mask? F d/setup1asciiproc{[currentfile mystring/readhexstring
+cvx/! cvx]cvx bind}b/setup1binaryproc{[currentfile mystring/readstring cvx/!
+cvx]cvx bind}b/setup2asciiproc{currentfile/ASCII85Decode filter/RunLengthDecode
+filter}b/setup2binaryproc{currentfile/RunLengthDecode filter}b/jpegasciiproc
+{currentfile/ASCII85Decode filter<</Relax 1>>/DCTDecode filter}b/jpegbinaryproc
+{currentfile<</Relax 1>>/DCTDecode filter}b/mycolorspace{colspABC}d/myimagedict
+{/myimagedict 10 dict d myimagedict @ `/ImageType 1 d/MultipleDataSource F d E}
+b/imageprocarray[/setup1binaryproc/setup1asciiproc/setup2binaryproc
+/setup2asciiproc/setup1binarydecodeproc/setup1asciidecodeproc]d/jpegprocarray[
+/jpegasciiproc/jpegbinaryproc]d/Q{/im_save save d scol imageprocarray ~ get/s ~
+, d/polarity ~ d/smoothflag ~ d +/dx 2 ^ d/dy 1 ^ d +S/mystring ~ string d/bpc
+~ d/ih ~ d/iw ~ d fx rf}b/X{/im_save save d/mask? ~ d/maskcolor ~ d
+imageprocarray ~ get/s ~ , d/polarity ~ d/smoothflag ~ d +/dx 2 ^ d/dy 1 ^ d +S
+/mystring ~ string d/bpc ~ d/ih ~ d/iw ~ d}b/Z{im_save restore}b/beginjpeg{
+/jpeg_save save d jpegprocarray ~ get/jpegimageproc ~ , d + +S/bpc ~ d/ih ~ d
+/iw ~ d bpc 24 eq{/DeviceRGB}{/DeviceGray}? setcolorspace myimagedict @ `
+/ImageType 1 d/Width iw d/Height ih d/Decode bpc 24 eq{[0 1 0 1 0 1]}{[0 1]}? d
+/ImageMatrix[iw 0 0 ih 0 0]d/BitsPerComponent 8 d/DataSource jpegimageproc d E
+image}b/endjpeg{jpeg_save restore}b/Y{scol myimagedict @ ` mask?{/polarity
+maskcolor 0 get 0 eq{T}{F}? d}if/Width iw d/Height ih d/Decode polarity{[1 0]}{
+[0 1]}? d/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent 1 d
+/Interpolate smoothflag d E imagemask}bd/doclutimage{/rgbclut ~ d bpc @ 8 eq{!
+255}{@ 4 eq{! 15}{2 eq{3}{1}?}?}?/hival ~ d[/Indexed currentcolorspace hival
+rgbclut]setcolorspace myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor
+d}if/Width iw d/Height ih d/Decode[0 hival]d/ImageMatrix[iw 0 0 ih 0 0]d
+/DataSource s d/BitsPerComponent bpc d/Interpolate smoothflag d E image}b
+/doCMYKclutimage{/CMYKclut ~ d bpc @ 8 eq{! 255}{4 eq{15}{3}?}?/hival ~ d[
+/Indexed/DeviceCMYK hival CMYKclut]setcolorspace myimagedict @ ` mask?{
+/ImageType 4 d/MaskColor maskcolor d}if/Width iw d/Height ih d/Decode[0 hival]d
+/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent bpc d/Interpolate
+smoothflag d E image}b/doNimage{bpc 24 eq{currentcolorspace}{colspA}?
+setcolorspace myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor d}if
+/Width iw d/Height ih d/Decode bpc 24 eq{[0 1 0 1 0 1]}{[0 1]}? d/ImageMatrix
+[iw 0 0 ih 0 0]d/DataSource s d/BitsPerComponent bpc 24 eq{8}{bpc}? d
+/Interpolate smoothflag d E image}b/doCMYKimage{/DeviceCMYK setcolorspace
+myimagedict @ ` mask?{/ImageType 4 d/MaskColor maskcolor d}if/Width iw d/Height
+ih d/Decode[0 1 0 1 0 1 0 1]d/ImageMatrix[iw 0 0 ih 0 0]d/DataSource s d
+/BitsPerComponent 8 d/Interpolate smoothflag d E image}b
+%%EndResource
+end reinitialize
+: 48 15 8 48 300 94 1120 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2345 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2651 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2957 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 3263 516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 72 15 8 72 450 94 3670 516 F F 3 [ 0 ] F 
+X
+doNimage
+\c;4"q#JhBnGi@cd/WS7r;b1Dmf3:ecN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+
+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cMm~> Z
+; : N 857 610 3369 6 rp C 
+ L ; : N 857 616 3369 100 rp C 
+1 0 scol  L ; 870 671 M (EB 1)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 616 F F 3 [ 0 ] F 
+X
+doNimage
+mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`
+mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cMm~> Z
+; : N 857 710 3369 6 rp C 
+ L ; : N 857 716 3369 100 rp C 
+1 0 scol  L ; 870 771 M (EB 2)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 716 F F 3 [ 0 ] F 
+X
+doNimage
+\c9eOq#L6jaT),;q#AD7r;cTl`rH&=pA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&X
+pA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpAY~> Z
+; : N 857 810 3369 6 rp C 
+ L ; : N 857 816 3369 100 rp C 
+1 0 scol  L ; 870 871 M (EB 3)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 816 F F 3 [ 0 ] F 
+X
+doNimage
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpAY~> Z
+; : N 857 910 3369 6 rp C 
+ L ; : N 857 916 3369 100 rp C 
+1 0 scol  L ; 870 971 M (EB 4)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 916 F F 3 [ 0 ] F 
+X
+doNimage
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpAY~> Z
+; : N 857 1010 3369 6 rp C 
+ L ; : N 857 1016 3369 100 rp C 
+1 0 scol  L ; 870 1071 M (EB 5)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 1016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1016 F F 3 [ 0 ] F 
+X
+doNimage
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpAY~> Z
+; : N 857 1110 3369 6 rp C 
+ L ; : N 857 1116 3369 100 rp C 
+1 0 scol  L ; 870 1171 M (EB 6)[41 41 41  0]xS 
+: N 857 1210 3369 6 rp C 
+ L ; : N 857 1216 3369 100 rp C 
+1 0 scol  L ; 870 1271 M (EB 7)[41 41 41  0]xS 
+: N 857 1310 3369 6 rp C 
+ L ; : N 857 1316 3369 100 rp C 
+1 0 scol  L ; 870 1371 M (EB 8)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 1426 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 1732 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 2038 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 2345 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 2651 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 2957 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : 48 15 8 48 300 94 3263 1316 F F 3 [ 0 ] F 
+X
+doNimage
+dJqVomf3:er;ZcsmJlVSrW)rtrW)?cmJm1drr;uum/QGPrr<'!rrDBbm/Qt`li6;NrW)6`m/Qt`
+li6>Orr<'!rrDBbmJm1drr;uum/QMRrW)rtrW)?cmf3:er;ZcsmJkT6dJj~> Z
+; : N 857 1410 3369 6 rp C 
+ L ; : N 857 1416 3369 100 rp C 
+1 0 scol  L ; 870 1471 M (AB 4)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 1416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1416 F F 3 [ 0 ] F 
+X
+doNimage
+\c;4"q#Ksbq#K[ZnGi@cn,N7bkl:,Or;c6br;c$\mf3:eli6tbk5XlLru:;(ru:,#mf3;+li6u(
+k5XlLru:;(ru:,#mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(
+k5XlLru:;(ru:,#mf3;+li6u(k5P~> Z
+; : N 857 1510 3369 6 rp C 
+ L ; : N 857 1516 3369 100 rp C 
+1 0 scol  L ; 870 1571 M (AB 5)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 1516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1516 F F 3 [ 0 ] F 
+X
+doNimage
+mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(k5XlLru:;(ru:,#
+mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(k5XlLru:;(ru:,#
+mf3;+li6u(k5XlLru:;(ru:,#mf3;+li6u(k5P~> Z
+; : N 857 1610 3369 6 rp C 
+ L ; : N 857 1616 3369 100 rp C 
+1 0 scol  L ; 870 1671 M (AB 6)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 1616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1616 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5XuOq#Kj_ru:\3q#L6jnGi@cmJm2*p&Fmhq#Bg_r;c3aru:V1r;cTlmf3:eli6u(oDegj
+pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\
+ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\ru:;(
+ru:S0ru:\3mf3;+li6u(oDeh0pAY~> Z
+; : N 857 1710 3369 6 rp C 
+ L ; : N 857 1716 3369 100 rp C 
+1 0 scol  L ; 870 1771 M (AB 7)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 1716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1716 F F 3 [ 0 ] F 
+X
+doNimage
+mf3;+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+
+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(
+oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0
+pAaR\ru:;(ru:S0ru:\3mf3;+li6u(oDeh0pAY~> Z
+; : N 857 1810 3369 6 rp C 
+ L ; : N 857 1816 3369 100 rp C 
+1 0 scol  L ; 870 1871 M (AB 8)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 1426 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 1732 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2038 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2345 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2651 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 2957 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNm_o,*r5AU8mDSG2rW)r9rW)?(mDT#)rl"g:m)88/rr<&;rrDB'm)8f%lbr,-rW)6%m)8f%
+lbr/.rr<&;rrDB'mDT#)rl"g:m)8>1rW)r9rW)?(m_o,*r5AU8mDRDjdDQ~> Z
+; : 48 15 8 48 300 94 3263 1816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1816 F F 3 [ 0 ] F 
+X
+doNimage
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpAY~> Z
+; : N 857 1910 3369 6 rp C 
+ L ; : N 857 1916 3369 100 rp C 
+1 0 scol  L ; 870 1971 M (AB 9)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 1916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 1916 F F 3 [ 0 ] F 
+X
+doNimage
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3
+`rH&XpA`/4ru:\3`rH&XpA`/4ru:\3`rH&XpAY~> Z
+; : N 857 2010 3369 6 rp C 
+ L ; : N 857 2016 3369 100 rp C 
+1 0 scol  L ; 870 2071 M (MB 0)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2016 F F 3 [ 0 ] F 
+X
+doNimage
+\c:@_q#K[Zf`1gKkl997r;c$\f)PaMk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pah
+k5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2110 3369 6 rp C 
+ L ; : N 857 2116 3369 100 rp C 
+1 0 scol  L ; 870 2171 M (MB 1)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2116 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2210 3369 6 rp C 
+ L ; : N 857 2216 3369 100 rp C 
+1 0 scol  L ; 870 2271 M (MB 2)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2216 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2216 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2310 3369 6 rp C 
+ L ; : N 857 2316 3369 100 rp C 
+1 0 scol  L ; 870 2371 M (MB 3)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2316 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2316 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2410 3369 6 rp C 
+ L ; : N 857 2416 3369 100 rp C 
+1 0 scol  L ; 870 2471 M (MB 4)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2416 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2416 F F 3 [ 0 ] F 
+X
+doNimage
+\c:@_q#K[Zf`1gKkl997r;c$\f)PaMk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pah
+k5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2510 3369 6 rp C 
+ L ; : N 857 2516 3369 100 rp C 
+1 0 scol  L ; 870 2571 M (MB 5)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2516 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2516 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2610 3369 6 rp C 
+ L ; : N 857 2616 3369 100 rp C 
+1 0 scol  L ; 870 2671 M (MB 6)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2616 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2710 3369 6 rp C 
+ L ; : N 857 2716 3369 100 rp C 
+1 0 scol  L ; 870 2771 M (MB 7)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2716 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2810 3369 6 rp C 
+ L ; : N 857 2816 3369 100 rp C 
+1 0 scol  L ; 870 2871 M (MB 8)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2816 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2816 F F 3 [ 0 ] F 
+X
+doNimage
+\c:@_q#K[Zf`1gKkl997r;c$\f)PaMk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pah
+k5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 2910 3369 6 rp C 
+ L ; : N 857 2916 3369 100 rp C 
+1 0 scol  L ; 870 2971 M (MB 9)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 2916 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 2916 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 3010 3369 6 rp C 
+ L ; : N 857 3016 3369 100 rp C 
+1 0 scol  L ; 870 3071 M (MB10)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 3016 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 3016 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 3110 3369 6 rp C 
+ L ; : N 857 3116 3369 100 rp C 
+1 0 scol  L ; 870 3171 M (MB11)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 3116 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 3116 F F 3 [ 0 ] F 
+X
+doNimage
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#
+f)Pahk5X$4ru:,#f)Pahk5X$4ru:,#f)Pahk5P~> Z
+; : N 857 3210 3369 6 rp C 
+ L ; : N 857 3216 3369 100 rp C 
+1 0 scol  L ; 870 3271 M (MB12)[41 41 41  0]xS 
+: N 857 3310 3369 6 rp C 
+ L ; : N 857 3316 3369 100 rp C 
+1 0 scol  L ; 870 3371 M (MB13)[41 41 41  0]xS 
+: N 857 3410 3369 6 rp C 
+ L ; : N 857 3416 3369 100 rp C 
+1 0 scol  L ; 870 3471 M (MB14)[41 41 41  0]xS 
+: N 857 3510 3369 6 rp C 
+ L ; : N 857 3516 3369 100 rp C 
+1 0 scol  L ; 870 3571 M (MB15)[41 41 41  0]xS 
+: N 857 3610 3369 6 rp C 
+ L ; : N 857 3616 3369 100 rp C 
+1 0 scol  L ; 870 3671 M (MB16)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 3616 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 3616 F F 3 [ 0 ] F 
+X
+doNimage
+\c;4"q#JhBnGi@cd/WS7r;b1Dmf3:ecN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+
+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cMm~> Z
+; : N 857 3710 3369 6 rp C 
+ L ; : N 857 3716 3369 100 rp C 
+1 0 scol  L ; 870 3771 M (MB17)[41 41 41  0]xS 
+: 48 15 8 48 300 94 1120 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1426 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 1732 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2038 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2345 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2651 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 2957 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 48 15 8 48 300 94 3263 3716 F F 3 [ 0 ] F 
+X
+doNimage
+dDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDXGNdDQ~> Z
+; : 72 15 8 72 450 94 3670 3716 F F 3 [ 0 ] F 
+X
+doNimage
+mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cN!>4ru98`
+mf3;+cN!>4ru98`mf3;+cN!>4ru98`mf3;+cMm~> Z
+; : N 857 3810 3369 6 rp C 
+ L ; : N 1113 404 7 3412 rp C 
+ L ; : N 1420 404 6 3412 rp C 
+ L ; : N 1726 404 6 3412 rp C 
+ L ; : N 2032 404 6 3412 rp C 
+ L ; : N 2338 404 7 3412 rp C 
+ L ; : N 2645 404 6 3412 rp C 
+ L ; : N 2951 404 6 3412 rp C 
+ L ; : N 3257 404 6 3412 rp C 
+ L ; : N 3563 404 7 3412 rp C 
+ L ; : N 4220 404 6 3412 rp C 
+ L ; LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Page: 2 2
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC              Band2b_Gruppe03\\...\\S7-Programm\(1\)\\Bausteine    12.12.2005 9:30:30)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 95 M 405 95 I 405 103 I 4732 103 I 4732 95 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 2 von 2)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S49 Ji 
+407 303 M (Zeiten, Z\344hler)[47 47 47 47 47 47 47 47 47 47 47 47 47  0]xS 
+0 Lw N 407 331 M 4682 331 I K 
+: N 445 404 4200 112 rp C 
+1 0 scol  L ; F0S44 Ji 
+551 471 M ( )S 
+882 471 M (0)S 
+1276 471 M (1)S 
+1670 471 M (2)S 
+2063 471 M (3)S 
+2457 471 M (4)S 
+2851 471 M (5)S 
+3245 471 M (6)S 
+3638 471 M (7)S 
+4032 471 M (8)S 
+4426 471 M (9)S 
+: N 445 404 4200 6 rp C 
+ L ; : N 445 510 4200 6 rp C 
+ L ; : N 445 516 4200 100 rp C 
+1 0 scol  L ; 457 584 M (T0-9)[41 41 41  0]xS 
+: N 445 610 4200 6 rp C 
+ L ; : N 445 616 4200 100 rp C 
+1 0 scol  L ; 457 684 M (Z0-9)[41 41 41  0]xS 
+: N 445 710 4200 6 rp C 
+ L ; : N 701 404 6 312 rp C 
+ L ; : N 1095 404 6 312 rp C 
+ L ; : N 1488 404 7 312 rp C 
+ L ; : N 1882 404 6 312 rp C 
+ L ; : N 2276 404 6 312 rp C 
+ L ; : N 2670 404 6 312 rp C 
+ L ; : N 3063 404 7 312 rp C 
+ L ; : N 3457 404 6 312 rp C 
+ L ; : N 3851 404 6 312 rp C 
+ L ; : N 4245 404 6 312 rp C 
+ L ; : N 4638 404 7 312 rp C 
+ L ; LH
+(%%[Page: 2]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 10 11 585 831
+%%DocumentNeededResources: 
+%%+ font Courier
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_VMErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+%%+ procset Pscript_Win_Dib_L2 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 2
+(%%[LastPage]%%) = 
+%%EOF
+

@@ -1,0 +1,1504 @@
+%!PS-Adobe-3.0
+%%Title: Band2b_Gruppe03\SIMATIC 300(1)
+%%Creator: PScript5.dll Version 5.2
+%%CreationDate: 12/12/2005 9:50:2
+%%For: Administrator
+%%BoundingBox: (atend)
+%%Pages: (atend)
+%%Orientation: Portrait
+%%PageOrder: Special
+%%DocumentNeededResources: (atend)
+%%DocumentSuppliedResources: (atend)
+%%DocumentData: Clean7Bit
+%%TargetDevice: (LaserWriter 12/640 PS) (2015.105) 1
+%%LanguageLevel: 2
+%%EndComments
+
+%%BeginDefaults
+%%PageBoundingBox: 10 11 585 831
+%%ViewingOrientation: 1 0 0 1
+%%EndDefaults
+
+
+%%BeginProlog
+%%BeginResource: file Pscript_WinNT_VMErrorHandler 5.0 0
+/currentpacking where{pop/oldpack currentpacking def/setpacking where{pop false
+setpacking}if}if/$brkpage 64 dict def $brkpage begin/prnt{dup type/stringtype
+ne{=string cvs}if dup length 6 mul/tx exch def/ty 10 def currentpoint/toy exch
+def/tox exch def 1 setgray newpath tox toy 2 sub moveto 0 ty rlineto tx 0
+rlineto 0 ty neg rlineto closepath fill tox toy moveto 0 setgray show}bind def
+/nl{currentpoint exch pop lmargin exch moveto 0 -10 rmoveto}def/=={/cp 0 def
+typeprint nl}def/typeprint{dup type exec}readonly def/lmargin 72 def/rmargin 72
+def/tprint{dup length cp add rmargin gt{nl/cp 0 def}if dup length cp add/cp
+exch def prnt}readonly def/cvsprint{=string cvs tprint( )tprint}readonly def
+/integertype{cvsprint}readonly def/realtype{cvsprint}readonly def/booleantype
+{cvsprint}readonly def/operatortype{(--)tprint =string cvs tprint(-- )tprint}
+readonly def/marktype{pop(-mark- )tprint}readonly def/dicttype{pop
+(-dictionary- )tprint}readonly def/nulltype{pop(-null- )tprint}readonly def
+/filetype{pop(-filestream- )tprint}readonly def/savetype{pop(-savelevel- )
+tprint}readonly def/fonttype{pop(-fontid- )tprint}readonly def/nametype{dup
+xcheck not{(/)tprint}if cvsprint}readonly def/stringtype{dup rcheck{(\()tprint
+tprint(\))tprint}{pop(-string- )tprint}ifelse}readonly def/arraytype{dup rcheck
+{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}forall(])
+tprint}ifelse}{pop(-array- )tprint}ifelse}readonly def/packedarraytype{dup
+rcheck{dup xcheck{({)tprint{typeprint}forall(})tprint}{([)tprint{typeprint}
+forall(])tprint}ifelse}{pop(-packedarray- )tprint}ifelse}readonly def/courier
+/Courier findfont 10 scalefont def end errordict/handleerror{systemdict begin
+$error begin $brkpage begin newerror{/newerror false store vmstatus pop pop 0
+ne{grestoreall}if initgraphics courier setfont lmargin 720 moveto errorname
+(VMerror)eq{version cvi 2016 ge{userdict/ehsave known{clear userdict/ehsave get
+restore 2 vmreclaim}if vmstatus exch pop exch pop PrtVMMsg}if}if systemdict
+/showpage get exec(%%[ Error: )print errorname =print(; OffendingCommand: )
+print/command load =print( ]%%)= flush}if end end end}dup 0 systemdict put dup
+4 $brkpage put bind readonly put/currentpacking where{pop/setpacking where{pop
+oldpack setpacking}if}if
+%%EndResource
+userdict /Pscript_WinNT_Incr 230 dict dup begin put
+%%BeginResource: file Pscript_FatalError 5.0 0
+userdict begin/FatalErrorIf{{initgraphics findfont 1 index 0 eq{exch pop}{dup
+length dict begin{1 index/FID ne{def}{pop pop}ifelse}forall/Encoding
+{ISOLatin1Encoding}stopped{StandardEncoding}if def currentdict end
+/ErrFont-Latin1 exch definefont}ifelse exch scalefont setfont counttomark 3 div
+cvi{moveto show}repeat showpage quit}{cleartomark}ifelse}bind def end
+%%EndResource
+userdict begin/PrtVMMsg{vmstatus exch sub exch pop gt{[
+(Dieser Druckauftrag erfordert mehr Speicher, als auf diesem Drucker vorhanden ist. )
+100 500
+(Versuchen Sie es mit einer oder mehreren der folgenden Methoden und drucken Sie dann erneut:)
+100 485(Wählen Sie für das Ausgabeformat die Option "Optimale Portierung".)115
+470
+(Stellen Sie sicher, daß auf der Registerkarte "Geräteeinstellungen" die Angabe für "Verfügbarer Postscript-Speicher" korrekt ist.)
+115 455(Reduzieren Sie die Anzahl der im Dokument verwendeten Schriftarten. )
+115 440(Drucken Sie das Dokument in verschiedenen Teilstücken. )115 425 12
+/Times-Roman showpage(%%[ PrinterError: Low Printer VM ]%%)= true FatalErrorIf}
+if}bind def end version cvi 2016 ge{/VM?{pop}bind def}{/VM? userdict/PrtVMMsg
+get def}ifelse
+105000 VM?
+%%BeginResource: file Pscript_Win_Basic 5.0 0
+/d/def load def/,/load load d/~/exch , d/?/ifelse , d/!/pop , d/`/begin , d/^
+/index , d/@/dup , d/+/translate , d/$/roll , d/U/userdict , d/M/moveto , d/-
+/rlineto , d/&/currentdict , d/:/gsave , d/;/grestore , d/F/false , d/T/true ,
+d/N/newpath , d/E/end , d/Ac/arc , d/An/arcn , d/A/ashow , d/D/awidthshow , d/C
+/closepath , d/V/div , d/O/eofill , d/L/fill , d/I/lineto , d/-c/curveto , d/-M
+/rmoveto , d/+S/scale , d/Ji/setfont , d/Lc/setlinecap , d/Lj/setlinejoin , d
+/Lw/setlinewidth , d/Lm/setmiterlimit , d/sd/setdash , d/S/show , d/LH/showpage
+, d/K/stroke , d/W/widthshow , d/R/rotate , d/L2? false/languagelevel where{pop
+languagelevel 2 ge{pop true}if}if d L2?{/xS/xshow , d/yS/yshow , d/zS/xyshow ,
+d}if/b{bind d}bind d/bd{bind d}bind d/xd{~ d}bd/ld{, d}bd/bn/bind ld/lw/Lw ld
+/lc/Lc ld/lj/Lj ld/sg/setgray ld/ADO_mxRot null d/self & d/OrgMx matrix
+currentmatrix d/reinitialize{: OrgMx setmatrix[/TextInit/GraphInit/UtilsInit
+counttomark{@ where{self eq}{F}?{cvx exec}{!}?}repeat cleartomark ;}b
+/initialize{`{/Pscript_Win_Data where{!}{U/Pscript_Win_Data & put}?/ADO_mxRot ~
+d/TextInitialised? F d reinitialize E}{U/Pscript_Win_Data 230 dict @ ` put
+/ADO_mxRot ~ d/TextInitialised? F d reinitialize}?}b/terminate{!{& self eq
+{exit}{E}?}loop E}b/suspend/terminate , d/resume{` Pscript_Win_Data `}b U `
+/lucas 21690 d/featurebegin{countdictstack lucas[}b/featurecleanup{stopped
+{cleartomark @ lucas eq{! exit}if}loop countdictstack ~ sub @ 0 gt{{E}repeat}
+{!}?}b E/snap{transform 0.25 sub round 0.25 add ~ 0.25 sub round 0.25 add ~
+itransform}b/dsnap{dtransform round ~ round ~ idtransform}b/nonzero_round{@ 0.5
+ge{round}{@ -0.5 lt{round}{0 ge{1}{-1}?}?}?}b/nonzero_dsnap{dtransform
+nonzero_round ~ nonzero_round ~ idtransform}b U<04>cvn{}put/rr{1 ^ 0 - 0 ~ -
+neg 0 - C}b/irp{4 -2 $ + +S fx 4 2 $ M 1 ^ 0 - 0 ~ - neg 0 -}b/rp{4 2 $ M 1 ^ 0
+- 0 ~ - neg 0 -}b/solid{[]0 sd}b/g{@ not{U/DefIf_save save put}if U/DefIf_bool
+2 ^ put}b/DefIf_El{if U/DefIf_bool get not @{U/DefIf_save get restore}if}b/e
+{DefIf_El !}b/UDF{L2?{undefinefont}{!}?}b/UDR{L2?{undefineresource}{! !}?}b
+/freeVM{/Courier findfont[40 0 0 -40 0 0]makefont Ji 2 vmreclaim}b/hfRedefFont
+{findfont @ length dict `{1 ^/FID ne{d}{! !}?}forall & E @ ` ~{/CharStrings 1
+dict `/.notdef 0 d & E d}if/Encoding 256 array 0 1 255{1 ^ ~/.notdef put}for d
+E definefont !}bind d/hfMkCIDFont{/CIDFont findresource @ length 2 add dict `{1
+^ @/FID eq ~ @/XUID eq ~/UIDBase eq or or{! !}{d}?}forall/CDevProc ~ d/Metrics2
+16 dict d/CIDFontName 1 ^ d & E 1 ^ ~/CIDFont defineresource ![~]composefont !}
+bind d
+%%EndResource
+%%BeginResource: file Pscript_Win_Utils_L2 5.0 0
+/rf/rectfill , d/fx{1 1 dtransform @ 0 ge{1 sub 0.5}{1 add -0.5}? 3 -1 $ @ 0 ge
+{1 sub 0.5}{1 add -0.5}? 3 1 $ 4 1 $ idtransform 4 -2 $ idtransform}b/BZ{4 -2 $
+snap + +S fx rf}b/rs/rectstroke , d/rc/rectclip , d/UtilsInit{currentglobal{F
+setglobal}if}b/scol{! setcolor}b/colspA/DeviceGray d/colspABC/DeviceRGB d
+/colspRefresh{colspABC setcolorspace}b/SetColSpace{colspABC setcolorspace}b
+/resourcestatus where{!/ColorRendering/ProcSet resourcestatus{! ! T}{F}?}{F}?
+not{/ColorRendering<</GetHalftoneName{currenthalftone @/HalftoneName known{
+/HalftoneName get}{!/none}?}bn/GetPageDeviceName{currentpagedevice @
+/PageDeviceName known{/PageDeviceName get @ null eq{!/none}if}{!/none}?}bn
+/GetSubstituteCRD{!/DefaultColorRendering/ColorRendering resourcestatus{! !
+/DefaultColorRendering}{(DefaultColorRendering*){cvn exit}127 string
+/ColorRendering resourceforall}?}bn>>/defineresource where{!/ProcSet
+defineresource !}{! !}?}if/buildcrdname{/ColorRendering/ProcSet findresource `
+mark GetHalftoneName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)
+GetPageDeviceName @ type @/nametype ne ~/stringtype ne and{!/none}if(.)5 ^ 0 5
+-1 1{^ length add}for string 6 1 $ 5 ^ 5{~ 1 ^ cvs length 1 ^ length 1 ^ sub
+getinterval}repeat ! cvn 3 1 $ ! ! E}b/definecolorrendering{~ buildcrdname ~
+/ColorRendering defineresource !}b/findcolorrendering where{!}{
+/findcolorrendering{buildcrdname @/ColorRendering resourcestatus{! ! T}{
+/ColorRendering/ProcSet findresource ` GetSubstituteCRD E F}?}b}?
+/selectcolorrendering{findcolorrendering !/ColorRendering findresource
+setcolorrendering}b/G2UBegin{findresource/FontInfo get/GlyphNames2Unicode get
+`}bind d/G2CCBegin{findresource/FontInfo get/GlyphNames2HostCode get `}bind d
+/G2UEnd{E}bind d/AddFontInfoBegin{/FontInfo 8 dict @ `}bind d/AddFontInfo{
+/GlyphNames2Unicode 16 dict d/GlyphNames2HostCode 16 dict d}bind d
+/AddFontInfoEnd{E d}bind d/T0AddCFFMtx2{/CIDFont findresource/Metrics2 get ` d
+E}bind d
+%%EndResource
+end
+%%EndProlog
+
+%%BeginSetup
+statusdict begin (%%[ ProductName: ) print product print ( ]%%)= flush end
+[ 1 0 0 1 0 0 ] false Pscript_WinNT_Incr dup /initialize get exec
+featurebegin{
+%%BeginNonPPDFeature: JobTimeout 0
+0 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/JobTimeout  4 -1 roll put setuserparams}{statusdict/setjobtimeout get exec}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginNonPPDFeature: WaitTimeout 300
+300 /languagelevel where{pop languagelevel}{1}ifelse 2 ge{1 dict dup/WaitTimeout 4 -1 roll put setuserparams}{statusdict/waittimeout 3 -1 roll put}ifelse
+%%EndNonPPDFeature
+}featurecleanup
+
+featurebegin{
+%%BeginFeature: *Duplex None
+1 dict dup /Duplex false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *BitsPerPixel None
+1 dict dup /PreRenderingEnhance false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Smoothing False
+2 dict dup /PostRenderingEnhance false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OutputOrder Normal
+1 dict dup /OutputFaceUp false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *TraySwitch False
+1 dict dup /TraySwitch false put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *PageSize A4
+
+   2 dict dup /PageSize [595 842] put dup /ImagingBBox null put setpagedevice
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *InstalledMemory 4Meg
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalCassette1 False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *OptionalDuplexer False
+
+%%EndFeature
+}featurecleanup
+featurebegin{
+%%BeginFeature: *Resolution 600dpi
+
+%%EndFeature
+}featurecleanup
+1 setlinecap 1 setlinejoin
+/mysetup [ 72 600 V 0 0 -72 600 V 10.00063 830.99908 ] def 
+%%EndSetup
+
+userdict begin /ehsave save def end
+%%Page: 1 1
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Text 5.0 0
+/TextInit{TextInitialised? not{/Pscript_Windows_Font & d/TextInitialised? T d
+/fM[1 0 0 1 0 0]d/mFM matrix d/iMat[1 0 0.212557 1 0 0]d}if}b/copyfont{1 ^
+length add dict `{1 ^/FID ne{d}{! !}?}forall & E}b/EncodeDict 11 dict d/bullets
+{{/bullet}repeat}b/rF{3 copyfont @ ` ~ EncodeDict ~ get/Encoding ~ 3 ^/0 eq{&
+/CharStrings known{CharStrings/Eth known not{! EncodeDict/ANSIEncodingOld get}
+if}if}if d E}b/mF{@ 7 1 $ findfont ~{@/Encoding get @ StandardEncoding eq{! T}{
+{ISOLatin1Encoding}stopped{! F}{eq}?{T}{@ ` T 32 1 127{Encoding 1 ^ get
+StandardEncoding 3 -1 $ get eq and}for E}?}?}{F}?{1 ^ ~ rF}{0 copyfont}? 6 -2 $
+! ! ~ !/pd_charset @ where{~ get 128 eq{@ FDV 2 copy get @ length array copy
+put pd_CoverFCRange}if}{!}? 2 ^ ~ definefont fM 5 4 -1 $ put fM 4 0 put fM
+makefont Pscript_Windows_Font 3 1 $ put}b/sLT{: Lw -M currentpoint snap M 0 - 0
+Lc K ;}b/xUP null d/yUP null d/uW null d/xSP null d/ySP null d/sW null d/sSU{N
+/uW ~ d/yUP ~ d/xUP ~ d}b/sU{xUP yUP uW sLT}b/sST{N/sW ~ d/ySP ~ d/xSP ~ d}b/sT
+{xSP ySP sW sLT}b/sR{: + R 0 0 M}b/sRxy{: matrix astore concat 0 0 M}b/eR/; , d
+/AddOrigFP{{&/FontInfo known{&/FontInfo get length 6 add}{6}? dict `
+/WinPitchAndFamily ~ d/WinCharSet ~ d/OrigFontType ~ d/OrigFontStyle ~ d
+/OrigFontName ~ d & E/FontInfo ~ d}{! ! ! ! !}?}b/mFS{makefont
+Pscript_Windows_Font 3 1 $ put}b/mF42D{0 copyfont `/FontName ~ d 2 copy ~ sub 1
+add dict `/.notdef 0 d 2 copy 1 ~{@ 3 ^ sub Encoding ~ get ~ d}for & E
+/CharStrings ~ d ! ! & @ E/FontName get ~ definefont}b/mF42{15 dict ` @ 4 1 $
+FontName ~ d/FontType 0 d/FMapType 2 d/FontMatrix[1 0 0 1 0 0]d 1 ^ 254 add 255
+idiv @ array/Encoding ~ d 0 1 3 -1 $ 1 sub{@ Encoding 3 1 $ put}for/FDepVector
+Encoding length array d/CharStrings 2 dict `/.notdef 0 d & E d 0 1 Encoding
+length 1 sub{@ @ 10 lt{! FontName length 1 add string}{100 lt{FontName length 2
+add string}{FontName length 3 add string}?}? @ 0 FontName @ length string cvs
+putinterval @ 3 -1 $ @ 4 1 $ 3 string cvs FontName length ~ putinterval cvn 1 ^
+256 mul @ 255 add 3 -1 $ 4 ^ findfont mF42D FDepVector 3 1 $ put}for & @ E
+/FontName get ~ definefont ! ! ! mF}b/mF_OTF_V{~ ! ~ ! 4 -1 $ ! findfont 2 ^ ~
+definefont fM @ @ 4 6 -1 $ neg put 5 0 put 90 matrix R matrix concatmatrix
+makefont Pscript_Windows_Font 3 1 $ put}b/mF_TTF_V{3{~ !}repeat 3 -1 $ !
+findfont 1 ^ ~ definefont Pscript_Windows_Font 3 1 $ put}b/UmF{L2?
+{Pscript_Windows_Font ~ undef}{!}?}b/UmF42{@ findfont/FDepVector get{/FontName
+get undefinefont}forall undefinefont}b
+%%EndResource
+end reinitialize
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Encoding256 5.0 0
+/CharCol256Encoding[/.notdef/breve/caron/dotaccent/dotlessi/fi/fl/fraction
+/hungarumlaut/Lslash/lslash/minus/ogonek/ring/Zcaron/zcaron/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/space/exclam/quotedbl/numbersign
+/dollar/percent/ampersand/quotesingle/parenleft/parenright/asterisk/plus/comma
+/hyphen/period/slash/zero/one/two/three/four/five/six/seven/eight/nine/colon
+/semicolon/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N/O/P/Q/R/S
+/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright/asciicircum/underscore/grave
+/a/b/c/d/e/f/g/h/i/j/k/l/m/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright
+/asciitilde/.notdef/Euro/.notdef/quotesinglbase/florin/quotedblbase/ellipsis
+/dagger/daggerdbl/circumflex/perthousand/Scaron/guilsinglleft/OE/.notdef
+/.notdef/.notdef/.notdef/quoteleft/quoteright/quotedblleft/quotedblright/bullet
+/endash/emdash/tilde/trademark/scaron/guilsinglright/oe/.notdef/.notdef
+/Ydieresis/.notdef/exclamdown/cent/sterling/currency/yen/brokenbar/section
+/dieresis/copyright/ordfeminine/guillemotleft/logicalnot/.notdef/registered
+/macron/degree/plusminus/twosuperior/threesuperior/acute/mu/paragraph
+/periodcentered/cedilla/onesuperior/ordmasculine/guillemotright/onequarter
+/onehalf/threequarters/questiondown/Agrave/Aacute/Acircumflex/Atilde/Adieresis
+/Aring/AE/Ccedilla/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute
+/Icircumflex/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute/Thorn/germandbls
+/agrave/aacute/acircumflex/atilde/adieresis/aring/ae/ccedilla/egrave/eacute
+/ecircumflex/edieresis/igrave/iacute/icircumflex/idieresis/eth/ntilde/ograve
+/oacute/ocircumflex/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex
+/udieresis/yacute/thorn/ydieresis]def EncodeDict/256 CharCol256Encoding put
+%%EndResource
+end reinitialize
+
+%%IncludeResource: font Courier
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_Euro_L2 5.0 0
+/UseT3EuroFont{/currentdistillerparams where{pop currentdistillerparams
+/CoreDistVersion get 4000 le}{false}ifelse}bind def/NewEuroT3Font?{dup/FontType
+get 3 eq{dup/EuroFont known exch/BaseFont known and}{pop false}ifelse}bind def
+/T1FontHasEuro{dup/CharStrings known not{dup NewEuroT3Font?{dup/EuroGlyphName
+get exch/EuroFont get/CharStrings get exch known{true}{false}ifelse}{pop false}
+ifelse}{dup/FontType get 1 eq{/CharStrings get/Euro known}{dup/InfoDict known{
+/InfoDict get/Euro known}{/CharStrings get/Euro known}ifelse}ifelse}ifelse}bind
+def/FontHasEuro{findfont dup/Blend known{pop true}{T1FontHasEuro}ifelse}bind
+def/EuroEncodingIdx 1 def/EuroFontHdr{12 dict begin/FontInfo 10 dict dup begin
+/version(001.000)readonly def/Notice(Copyright (c)1999 Adobe Systems
+Incorporated. All Rights Reserved.)readonly def/FullName(Euro)readonly def
+/FamilyName(Euro)readonly def/Weight(Regular)readonly def/isFixedPitch false
+def/ItalicAngle 0 def/UnderlinePosition -100 def/UnderlineThickness 50 def end
+readonly def/FontName/Euro def/Encoding 256 array 0 1 255{1 index exch/.notdef
+put}for def/PaintType 0 def/FontType 1 def/FontMatrix[0.001 0 0 0.001 0 0]def
+/FontBBox{-25 -23 1500 804}readonly def currentdict end dup/Private 20 dict dup
+begin/ND{def}def/NP{put}def/lenIV -1 def/RD{string currentfile exch
+readhexstring pop}def/-|{string currentfile exch readstring pop}executeonly def
+/|-{def}executeonly def/|{put}executeonly def/BlueValues[-20 0 706 736 547 572]
+|-/OtherBlues[-211 -203]|-/BlueScale 0.0312917 def/MinFeature{16 16}|-/StdHW
+[60]|-/StdVW[71]|-/ForceBold false def/password 5839 def/Erode{8.5 dup 3 -1
+roll 0.1 mul exch 0.5 sub mul cvi sub dup mul 71 0 dtransform dup mul exch dup
+mul add le{pop pop 1.0 1.0}{pop pop 0.0 1.5}ifelse}def/OtherSubrs[{}{}{}
+{systemdict/internaldict known not{pop 3}{1183615869 systemdict/internaldict
+get exec dup/startlock known{/startlock get exec}{dup/strtlck known{/strtlck
+get exec}{pop 3}ifelse}ifelse}ifelse}executeonly]|-/Subrs 5 array dup 0
+<8E8B0C100C110C110C210B>put dup 1<8B8C0C100B>put dup 2<8B8D0C100B>put dup 3<0B>
+put dup 4<8E8C8E0C100C110A0B>put |- 2 index/CharStrings 256 dict dup begin
+/.notdef<8b8b0d0e>def end end put put dup/FontName get exch definefont pop}bind
+def/AddEuroGlyph{2 index exch EuroEncodingIdx 1 eq{EuroFontHdr}if systemdict
+begin/Euro findfont dup dup/Encoding get 5 1 roll/Private get begin/CharStrings
+get dup 3 index known{pop pop pop pop end end}{begin 1 index exch def end end
+end EuroEncodingIdx dup 1 add/EuroEncodingIdx exch def exch put}ifelse}bind def
+/GetNewXUID{currentdict/XUID known{[7 XUID aload pop]true}{currentdict/UniqueID
+known{[7 UniqueID]true}{false}ifelse}ifelse}bind def/BuildT3EuroFont{exch 16
+dict begin dup/FontName exch def findfont dup/Encoding get/Encoding exch def
+dup length 1 add dict copy dup/FID undef begin dup dup/FontName exch def
+/Encoding 256 array 0 1 255{1 index exch/.notdef put}for def GetNewXUID{/XUID
+exch def}if currentdict end definefont pop/BaseFont exch findfont 1000
+scalefont def/EuroFont exch findfont 1000 scalefont def pop/EuroGlyphName exch
+def/FontType 3 def/FontMatrix[.001 0 0 .001 0 0]def/FontBBox BaseFont/FontBBox
+get def/Char 1 string def/BuildChar{exch dup begin/Encoding get 1 index get
+/Euro eq{BaseFont T1FontHasEuro{false}{true}ifelse}{false}ifelse{EuroFont
+setfont pop userdict/Idx 0 put EuroFont/Encoding get{EuroGlyphName eq{exit}
+{userdict/Idx Idx 1 add put}ifelse}forall userdict/Idx get}{dup dup Encoding
+exch get BaseFont/Encoding get 3 1 roll put BaseFont setfont}ifelse Char 0 3 -1
+roll put Char stringwidth newpath 0 0 moveto Char true charpath flattenpath
+pathbbox setcachedevice 0 0 moveto Char show end}bind def currentdict end dup
+/FontName get exch definefont pop}bind def/AddEuroToT1Font{dup findfont dup
+length 10 add dict copy dup/FID undef begin/EuroFont 3 -1 roll findfont 1000
+scalefont def CharStrings dup length 1 add dict copy begin/Euro{EuroFont
+setfont pop EuroGBBox aload pop setcachedevice 0 0 moveto EuroGName glyphshow}
+bind def currentdict end/CharStrings exch def GetNewXUID{/XUID exch def}if 3 1
+roll/EuroGBBox exch def/EuroGName exch def currentdict end definefont pop}bind
+def/BuildNewFont{UseT3EuroFont{BuildT3EuroFont}{pop AddEuroToT1Font}ifelse}bind
+def/UseObliqueEuro{findfont/FontMatrix get dup 2 get 0 eq exch dup 0 get exch 3
+get eq and UseT3EuroFont or}bind def
+%%EndResource
+end reinitialize
+7500 VM?
+/Courier FontHasEuro not
+{
+/Euro.Courier
+ [600 0 17 -12 578 584 ] 
+<9CF8EC0DD1C303F88DC1037FC201F760C201F7CEC201F8A5C201F76004DB06A8FB0FE32E
+F7278B08DA8BD8A8C8B80873BA0556644870478B08278B39C56DF208F776069FC205FB94
+068B968A968B96088B928B938C9208F7A6069FC205FBB106A3EAD3CCEB8B08D18BD071B1
+63084307C106F75507550656075AAE569D438B08FB188B2D2D70FB0D085106775405D106
+7A078B7E8C7F8C7E085706090E>
+AddEuroGlyph
+/Euro /Courier /Courier-Copy BuildNewFont
+} if
+F /F0 0 /256 T /Courier mF 
+/F0S53 F0 [83.285 0 0 -83.285 0 0 ] mFS
+F0S53 Ji 
+412 70 M (SIMATIC                     Band2b_Gruppe03/SIMATIC 300\(1\)           12.12.2005 9:49:47)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_Win_GdiObject 5.0 0
+/SavedCTM null d/CTMsave{/SavedCTM SavedCTM currentmatrix d}b/CTMrestore
+{SavedCTM setmatrix}b/mp null d/ADO_mxRot null d/GDIHMatrix null d
+/GDIHPatternDict 22 dict d GDIHPatternDict `/PatternType 1 d/PaintType 2 d/Reps
+L2?{1}{5}? d/XStep 8 Reps mul d/YStep XStep d/BBox[0 0 XStep YStep]d/TilingType
+1 d/PaintProc{` 1 Lw[]0 sd PaintData , exec E}b/FGnd null d/BGnd null d
+/HS_Horizontal{horiz}b/HS_Vertical{vert}b/HS_FDiagonal{fdiag}b/HS_BDiagonal
+{biag}b/HS_Cross{horiz vert}b/HS_DiagCross{fdiag biag}b/MaxXYStep XStep YStep
+gt{XStep}{YStep}? d/horiz{Reps{0 4 M XStep 0 - 0 8 +}repeat 0 -8 Reps mul + K}b
+/vert{Reps{4 0 M 0 YStep - 8 0 +}repeat 0 -8 Reps mul + K}b/biag{Reps{0 0 M
+MaxXYStep @ - 0 YStep neg M MaxXYStep @ - 0 8 +}repeat 0 -8 Reps mul + 0 YStep
+M 8 8 - K}b/fdiag{Reps{0 0 M MaxXYStep @ neg - 0 YStep M MaxXYStep @ neg - 0 8
++}repeat 0 -8 Reps mul + MaxXYStep @ M 8 -8 - K}b E/makehatch{4 -2 $/yOrg ~ d
+/xOrg ~ d GDIHPatternDict/PaintData 3 -1 $ put CTMsave GDIHMatrix setmatrix
+GDIHPatternDict matrix xOrg yOrg + mp CTMrestore ~ U ~ 2 ^ put}b/h0{/h0
+/HS_Horizontal makehatch}b/h1{/h1/HS_Vertical makehatch}b/h2{/h2/HS_FDiagonal
+makehatch}b/h3{/h3/HS_BDiagonal makehatch}b/h4{/h4/HS_Cross makehatch}b/h5{/h5
+/HS_DiagCross makehatch}b/GDIBWPatternMx null d/pfprep{save 8 1 $
+/PatternOfTheDay 8 1 $ GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/yExt
+~ d/Width ~ d/BGnd ~ d/FGnd ~ d/Height yExt RepsV mul d/mx[Width 0 0 Height 0
+0]d E build_pattern ~ !}b/pfbf{/fEOFill ~ d pfprep hbf fEOFill{O}{L}? restore}b
+/GraphInit{GDIHMatrix null eq{/SavedCTM matrix d : ADO_mxRot concat 0 0 snap +
+: 0.48 @ GDIHPatternDict ` YStep mul ~ XStep mul ~ nonzero_dsnap YStep V ~
+XStep V ~ E +S/GDIHMatrix matrix currentmatrix readonly d ; : 0.24 -0.24 +S
+GDIBWPatternDict ` Width Height E nonzero_dsnap +S/GDIBWPatternMx matrix
+currentmatrix readonly d ; ;}if}b
+%%EndResource
+%%BeginResource: file Pscript_Win_GdiObject_L2 5.0 0
+/GDIBWPatternDict 25 dict @ `/PatternType 1 d/PaintType 1 d/RepsV 1 d/RepsH 1 d
+/BBox[0 0 RepsH 1]d/TilingType 1 d/XStep 1 d/YStep 1 d/Height 8 RepsV mul d
+/Width 8 d/mx[Width 0 0 Height neg 0 Height]d/FGnd null d/BGnd null d
+/SetBGndFGnd{BGnd null ne{BGnd aload ! scol BBox aload ! 2 ^ sub ~ 3 ^ sub ~
+rf}if FGnd null ne{FGnd aload ! scol}if}b/PaintProc{` SetBGndFGnd RepsH{Width
+Height F mx PaintData imagemask Width 0 +}repeat E}b E d/mp/makepattern , d
+/build_pattern{CTMsave GDIBWPatternMx setmatrix/nupangle where{! nupangle -90
+eq{nupangle R}if}if GDIBWPatternDict @ ` Width Height ne{Width Height gt{Width
+Height V 1}{1 Height Width V}? +S}if xOrg yOrg E matrix + mp CTMrestore}b/hbf
+{setpattern}b/hf{:/fEOFill ~ d ~ ! setpattern fEOFill{O}{L}? ;}b/pbf{: !
+/fEOFill ~ d GDIBWPatternDict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/OutputBPP ~ d
+/Height ~ d/Width ~ d/PaintType 1 d/PatternType 1 d/TilingType 1 d/BBox[0 0
+Width Height]d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d 20 dict @ `
+/ImageType 1 d/Width Width d/Height Height d/ImageMatrix[1 0 0 1 0 0]d
+/BitsPerComponent 8 d OutputBPP 24 eq{/Decode[0 1 0 1 0 1]d}{OutputBPP 8 eq{
+/Decode[0 1]d}{/Decode[0 1 0 1 0 1 0 1]d}?}?/DataSource{PaintData}d E/ImageDict
+~ d/PaintProc{` ImageDict image E}b & mx makepattern setpattern E fEOFill{O}{L}
+? ;}b/mask_pbf{:/fEOFill ~ d 20 dict `/yOrg ~ d/xOrg ~ d/PaintData ~ d/Height ~
+d/Width ~ d/PatternType 1 d/PaintType 2 d/TilingType 1 d/BBox[0 0 Width Height]
+d/XStep Width d/YStep Height d/mx xOrg yOrg matrix + d/PaintProc{` Width Height
+T 1 1 dtransform abs ~ abs ~ 0 0 3 -1 $ 0 0 6 array astore{PaintData}imagemask
+E}b & mx makepattern setpattern E fEOFill{O}{L}? ;}b
+%%EndResource
+end reinitialize
+N 4732 95 M 405 95 I 405 103 I 4732 103 I 4732 95 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 1 von 4)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+
+%%IncludeResource: font Courier-Bold
+7500 VM?
+/Courier-Bold FontHasEuro not
+{
+/Euro.Courier-Bold
+ [600 0 6 -12 585 612 ] 
+<91F8EC0DDBE803F875E7037FE701F755DC01F7D7DC01F8C47701F80FF7A615FB61068A94
+8B958B95088B928B918C9208F76E06A4DC05FB76068F0ADBE803F875E7037FE701F755DC
+01F7D7DC01F89CE701A1D4C1B6DF8B08BF8BC46DA067084A07E706F773072F068F0ADBE8
+03F875E7037FE701F755DC01F7D7DC01F8C4770157078F0ADBE803F875E7037FE701F755
+DC01F7D7DC01F89CE70165AE549C5E8B08FB138B2F386BFB11084806723A05DB0678078B
+818B818C81085306723A05E806A9FB08DD32F7288B08B28BF7039FD7D00853CF056B754E
+603B8B08448B51B56ED208F73606090E>
+AddEuroGlyph
+/Euro /Courier-Bold /Courier-Bold-Copy BuildNewFont
+} if
+F /F1 0 /256 T /Courier-Bold mF 
+/F1S5E F1 [94 0 0 -94 0 0 ] mFS
+F1S5E Ji 
+407 320 M (SIMATIC 300\(1\))[56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+/F0S52 F0 [82 0 0 -82 0 0 ] mFS
+F0S52 Ji 
+407 413 M ( )S 
+407 500 M ( )S 
+F1S5E Ji 
+407 601 M (UR - Baugruppentr\344ger 0)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 695 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 695 M (UR)[49  0]xS 
+505 782 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 782 M (6ES7 390-1???0-0AA0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 869 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 869 M (UR)[49  0]xS 
+505 956 M ( )S 
+F1S5E Ji 
+407 1057 M (Baugruppentr\344ger 0, Steckplatz 1)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 1150 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1150 M (PS 307 5A)[49 49 49 49 49 49 49 49  0]xS 
+505 1237 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1237 M (6ES7 307-1EA00-0AA0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 1324 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1324 M (PS 307 5A)[49 49 49 49 49 49 49 49  0]xS 
+505 1411 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 1411 M (1)S 
+505 1498 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 1585 M (- - -)[49 49 49 49  0]xS 
+407 1672 M ( )S 
+F1S5E Ji 
+407 1773 M (Baugruppentr\344ger 0, Steckplatz 2)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 1866 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1866 M (CPU 315-2 DP)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 1953 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1953 M (6ES7 315-2AF01-0AB0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 2040 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2040 M (CPU 315-2 DP)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 2127 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 2127 M (1)S 
+505 2214 M (MPI-Adresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2214 M (2)S 
+505 2301 M (H\366chste MPI-Adresse:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2301 M (31)[49  0]xS 
+505 2388 M (Baudrate:)[49 49 49 49 49 49 49 49  0]xS 
+2297 2388 M (187.5 kBit/s)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 2475 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 2562 M (- - -)[49 49 49 49  0]xS 
+505 2649 M ( )S 
+505 2736 M (Anlauf)[49 49 49 49 49  0]xS 
+603 2823 M (Anlauf bei Sollausbau ungleich)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+603 2910 M (Istausbau:)[49 49 49 49 49 49 49 49 49  0]xS 
+2297 2910 M (Ja)[49  0]xS 
+603 2997 M (Hardwaretest bei Neustart:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2997 M (Nein)[49 49 49  0]xS 
+603 3084 M (Anlauf nach NETZ EIN:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3084 M (Neustart)[49 49 49 49 49 49 49  0]xS 
+603 3171 M (\334berwachungszeit f\374r)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 3258 M (Fertigmeldung durch)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 3345 M (Baugruppen:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3345 M (65000 ms)[49 49 49 49 49 49 49  0]xS 
+701 3432 M (\334bertragung der Parameter)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 3519 M (an Baugruppen:)[49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3519 M (10000 ms)[49 49 49 49 49 49 49  0]xS 
+505 3606 M ( )S 
+505 3693 M (Zyklus)[49 49 49 49 49  0]xS 
+603 3780 M (Zyklus\374berwachungszeit:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3780 M (150 ms)[49 49 49 49 49  0]xS 
+603 3867 M (Zyklusbelastung durch)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+603 3954 M (Kommunikation:)[49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3954 M (20 %)[49 49 49  0]xS 
+603 4041 M ( )S 
+505 4128 M ( )S 
+505 4215 M (Taktmerker:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4215 M (Nein)[49 49 49  0]xS 
+505 4302 M ( )S 
+505 4389 M (Remanenz)[49 49 49 49 49 49 49  0]xS 
+603 4476 M (Anzahl Merkerbytes ab MB0:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4476 M (16)[49  0]xS 
+603 4563 M (Anzahl S7-Timer ab T0:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4563 M (0)S 
+603 4650 M (Anzahl S7-Z\344hler ab Z0:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4650 M (8)S 
+603 4737 M (Remanenzbereich 1)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 4824 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 4824 M (1)S 
+701 4911 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4911 M (0)S 
+701 4998 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4998 M (0)S 
+603 5085 M (Remanenzbereich 2)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 5172 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 5172 M (1)S 
+701 5259 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5259 M (0)S 
+701 5346 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5346 M (0)S 
+603 5433 M (Remanenzbereich 3)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 5520 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 5520 M (1)S 
+701 5607 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5607 M (0)S 
+701 5694 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5694 M (0)S 
+603 5781 M (Remanenzbereich 4)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 5868 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 5868 M (1)S 
+701 5955 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5955 M (0)S 
+701 6042 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6042 M (0)S 
+603 6129 M (Remanenzbereich 5)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 6216 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 6216 M (1)S 
+701 6303 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6303 M (0)S 
+701 6390 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6390 M (0)S 
+603 6477 M (Remanenzbereich 6)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+LH
+(%%[Page: 1]%%) = 
+%%PageTrailer
+
+%%Page: 2 2
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC                     Band2b_Gruppe03/SIMATIC 300\(1\)           12.12.2005 9:49:47)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 95 M 405 95 I 405 103 I 4732 103 I 4732 95 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 2 von 4)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S52 Ji 
+787 306 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 306 M (1)S 
+787 393 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 393 M (0)S 
+787 480 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 480 M (0)S 
+689 567 M (Remanenzbereich 7)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+787 654 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 654 M (1)S 
+787 741 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 741 M (0)S 
+787 828 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 828 M (0)S 
+689 915 M (Remanenzbereich 8)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+787 1002 M (DB-Nr:)[49 49 49 49 49  0]xS 
+2297 1002 M (1)S 
+787 1089 M (Byteadresse:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1089 M (0)S 
+787 1176 M (Anzahl Bytes:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1176 M (0)S 
+591 1263 M ( )S 
+591 1350 M (Proze\337alarme)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 1437 M (OB40 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1437 M (16)[49  0]xS 
+591 1524 M ( )S 
+591 1611 M (Verz\366gerungsalarme)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 1698 M (OB20 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1698 M (3)S 
+591 1785 M ( )S 
+591 1872 M (Asynchronfehleralarme)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 1959 M (OB81 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1959 M (26)[49  0]xS 
+689 2046 M (OB82 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2046 M (26)[49  0]xS 
+689 2133 M (OB85 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2133 M (26)[49  0]xS 
+689 2220 M (OB86 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2220 M (26)[49  0]xS 
+689 2307 M (OB87 - Priorit\344t:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2307 M (26)[49  0]xS 
+591 2394 M ( )S 
+591 2481 M (Uhrzeitalarme)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 2568 M (OB10)[49 49 49  0]xS 
+787 2655 M (Priorit\344t:)[49 49 49 49 49 49 49 49 49  0]xS 
+2297 2655 M (2)S 
+787 2742 M (Aktiv:)[49 49 49 49 49  0]xS 
+2297 2742 M (Nein)[49 49 49  0]xS 
+787 2829 M (Ausf\374hrung:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2829 M (Keine)[49 49 49 49  0]xS 
+787 2916 M (Startdatum:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2916 M (01.01.94)[49 49 49 49 49 49 49  0]xS 
+787 3003 M (Startzeit:)[49 49 49 49 49 49 49 49 49  0]xS 
+2297 3003 M (00:00)[49 49 49 49  0]xS 
+591 3090 M ( )S 
+591 3177 M (Weckalarme)[49 49 49 49 49 49 49 49 49  0]xS 
+689 3264 M (OB35)[49 49 49  0]xS 
+787 3351 M (Priorit\344t:)[49 49 49 49 49 49 49 49 49  0]xS 
+2297 3351 M (12)[49  0]xS 
+787 3438 M (Ausf\374hrung:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3438 M (100 ms)[49 49 49 49 49  0]xS 
+591 3525 M ( )S 
+591 3612 M (Systemdiagnose)[49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 3699 M (Erweiterter Funktionsumfang:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3699 M (Nein)[49 49 49  0]xS 
+689 3786 M (STOP-Ursache melden:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3786 M (Ja)[49  0]xS 
+591 3873 M ( )S 
+591 3960 M (Uhr)[49 49  0]xS 
+689 4047 M (Synchronisation im AS)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+787 4134 M (Synchronisationsart:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4134 M (Keine)[49 49 49 49  0]xS 
+787 4221 M (Zeitintervall:)[49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4221 M (Kein)[49 49 49  0]xS 
+689 4308 M (Korrekturfaktor:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4308 M (0 ms)[49 49 49  0]xS 
+591 4395 M ( )S 
+591 4482 M (Kommunikation)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 4569 M (Verbindungs-Ressourcen reserviert f\374r)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49
+49 49 49 49  0]xS 
+787 4656 M (PG-Kommunikation:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4656 M (1)S 
+787 4743 M (OP-Kommunikation:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4743 M (1)S 
+689 4830 M (Max. Anzahl )[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+689 4917 M (Verbindungs-Ressourcen:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4830 M (12)[49  0]xS 
+407 5004 M ( )S 
+F1S5E Ji 
+407 5105 M (Baugruppentr\344ger 0, Steckplatz 2, Schnittstelle X2)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56
+56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 5198 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5198 M (DP)[49  0]xS 
+505 5285 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5285 M (- - -)[49 49 49 49  0]xS 
+505 5372 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5372 M (DP)[49  0]xS 
+505 5459 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 5459 M (1)S 
+505 5546 M (PROFIBUS-Adresse:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 5546 M (2)S 
+505 5633 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 5720 M (- - -)[49 49 49 49  0]xS 
+505 5807 M (Adressen)[49 49 49 49 49 49 49  0]xS 
+603 5894 M (Eing\344nge)[49 49 49 49 49 49 49  0]xS 
+701 5981 M (Anfang:)[49 49 49 49 49 49  0]xS 
+2297 5981 M (1023)[49 49 49  0]xS 
+701 6068 M (Ende:)[49 49 49 49  0]xS 
+2297 6068 M (1023)[49 49 49  0]xS 
+407 6155 M ( )S 
+505 6242 M ( )S 
+505 6329 M (Synchronisationsart:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6329 M (Keine)[49 49 49 49  0]xS 
+505 6416 M (Zeitintervall:)[49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6416 M (Kein)[49 49 49  0]xS 
+LH
+(%%[Page: 2]%%) = 
+%%PageTrailer
+
+%%Page: 3 3
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC                     Band2b_Gruppe03/SIMATIC 300\(1\)           12.12.2005 9:49:47)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 95 M 405 95 I 405 103 I 4732 103 I 4732 95 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 3 von 4)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S52 Ji 
+407 306 M ( )S 
+F1S5E Ji 
+407 407 M (Baugruppentr\344ger 0, Steckplatz 4)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 500 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 500 M (DI32xDC24V)[49 49 49 49 49 49 49 49 49  0]xS 
+505 587 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 587 M (6ES7 321-1BL00-0AA0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 674 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 674 M (DI32xDC24V)[49 49 49 49 49 49 49 49 49  0]xS 
+505 761 M (Digital-Kan\344le:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 761 M (32 Eing\344nge)[49 49 49 49 49 49 49 49 49 49  0]xS 
+505 848 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 848 M (1)S 
+505 935 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 1022 M (- - -)[49 49 49 49  0]xS 
+505 1109 M (Adressen)[49 49 49 49 49 49 49  0]xS 
+603 1196 M (Eing\344nge)[49 49 49 49 49 49 49  0]xS 
+701 1283 M (Anfang:)[49 49 49 49 49 49  0]xS 
+2297 1283 M (0)S 
+701 1370 M (Ende:)[49 49 49 49  0]xS 
+2297 1370 M (3)S 
+407 1457 M ( )S 
+F1S5E Ji 
+407 1558 M (Baugruppentr\344ger 0, Steckplatz 5)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 1651 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1651 M (DO32xDC24V/0.5A)[49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 1738 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1738 M (6ES7 322-1BL00-0AA0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 1825 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1825 M (DO32xDC24V/0.5A)[49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 1912 M (Digital-Kan\344le:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1912 M (32 Ausg\344nge)[49 49 49 49 49 49 49 49 49 49  0]xS 
+505 1999 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 1999 M (1)S 
+505 2086 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 2173 M (- - -)[49 49 49 49  0]xS 
+505 2260 M (Adressen)[49 49 49 49 49 49 49  0]xS 
+603 2347 M (Ausg\344nge)[49 49 49 49 49 49 49  0]xS 
+701 2434 M (Anfang:)[49 49 49 49 49 49  0]xS 
+2297 2434 M (4)S 
+701 2521 M (Ende:)[49 49 49 49  0]xS 
+2297 2521 M (7)S 
+407 2608 M ( )S 
+F1S5E Ji 
+407 2709 M (Baugruppentr\344ger 0, Steckplatz 6)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 2802 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2802 M (DI8/DO8x24V/0.5A)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 2889 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2889 M (6ES7 323-1BH00-0AA0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 2976 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 2976 M (DI8/DO8x24V/0.5A)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 3063 M (Digital-Kan\344le:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 3063 M (8 Eing\344nge)[49 49 49 49 49 49 49 49 49  0]xS 
+2297 3150 M (8 Ausg\344nge)[49 49 49 49 49 49 49 49 49  0]xS 
+505 3237 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 3237 M (1)S 
+505 3324 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 3411 M (- - -)[49 49 49 49  0]xS 
+505 3498 M (Adressen)[49 49 49 49 49 49 49  0]xS 
+603 3585 M (Eing\344nge)[49 49 49 49 49 49 49  0]xS 
+701 3672 M (Anfang:)[49 49 49 49 49 49  0]xS 
+2297 3672 M (8)S 
+701 3759 M (Ende:)[49 49 49 49  0]xS 
+2297 3759 M (8)S 
+603 3846 M (Ausg\344nge)[49 49 49 49 49 49 49  0]xS 
+701 3933 M (Anfang:)[49 49 49 49 49 49  0]xS 
+2297 3933 M (8)S 
+701 4020 M (Ende:)[49 49 49 49  0]xS 
+2297 4020 M (8)S 
+407 4107 M ( )S 
+F1S5E Ji 
+407 4208 M (Baugruppentr\344ger 0, Steckplatz 7)[56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+F0S52 Ji 
+505 4301 M (Kurzbezeichnung:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4301 M (AI2x12Bit)[49 49 49 49 49 49 49 49  0]xS 
+505 4388 M (Bestell-Nr:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4388 M (6ES7 331-7KB01-0AB0)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+505 4475 M (Bezeichnung:)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4475 M (AI2x12Bit)[49 49 49 49 49 49 49 49  0]xS 
+505 4562 M (Analog-Kan\344le:)[49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 4562 M (2 Eing\344nge)[49 49 49 49 49 49 49 49 49  0]xS 
+505 4649 M (Breite:)[49 49 49 49 49 49  0]xS 
+2297 4649 M (1)S 
+505 4736 M (Kommentar:)[49 49 49 49 49 49 49 49 49  0]xS 
+603 4823 M (- - -)[49 49 49 49  0]xS 
+505 4910 M (Adressen)[49 49 49 49 49 49 49  0]xS 
+603 4997 M (Eing\344nge)[49 49 49 49 49 49 49  0]xS 
+701 5084 M (Anfang:)[49 49 49 49 49 49  0]xS 
+2297 5084 M (304)[49 49  0]xS 
+701 5171 M (Ende:)[49 49 49 49  0]xS 
+2297 5171 M (307)[49 49  0]xS 
+505 5258 M ( )S 
+505 5345 M (Parameter)[49 49 49 49 49 49 49 49  0]xS 
+603 5432 M (Grundeinstellungen)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 5519 M (0x12)[49 49 49  0]xS 
+799 5606 M (0x00:)[49 49 49 49  0]xS 
+2297 5606 M (Pt 100 Kl.)[49 49 49 49 49 49 49 49 49  0]xS 
+32103 VM?
+Pscript_WinNT_Incr begin
+%%BeginResource: file Pscript_T42Hdr 5.0 0
+/asc42 0.0 d/sF42{/asc42 ~ d Ji}bind d/bS42{0 asc42 -M}bind d/eS42{0 asc42 neg
+-M}b/Is2015?{version cvi 2015 ge}bind d/AllocGlyphStorage{Is2015?{!}{{string}
+forall}?}bind d/Type42DictBegin{25 dict `/FontName ~ d/Encoding ~ d 4 array
+astore cvx/FontBBox ~ d/PaintType 0 d/FontType 42 d/FontMatrix[1 0 0 1 0 0]d
+/CharStrings 256 dict `/.notdef 0 d & E d/sfnts}bind d/Type42DictEnd{& @
+/FontName get ~ definefont ! E}bind d/RDS{string currentfile ~ readstring !}
+executeonly d/PrepFor2015{Is2015?{/GlyphDirectory 16 dict d sfnts 0 get @ 2 ^
+(glyx)putinterval 2 ^(locx)putinterval ! !}{! !}?}bind d/AddT42Char{Is2015?
+{findfont/GlyphDirectory get ` d E ! !}{findfont/sfnts get 4 ^ get 3 ^ 2 ^
+putinterval ! ! ! !}?}bind d/IDStrNull{1 add 2 mul @ string 0 1 3 ^ 1 sub{1 ^ ~
+0 put}for ~ !}bind d/IDStr{@ 1 add 2 mul string 0 1 3 ^{1 ^ ~ @ 2 mul ~ 3 copy
+256 idiv put ~ 1 add ~ 256 mod put}for ~ !}bind d/IDStr2{~ @ 1 add 2 mul string
+0 1 3 ^{1 ^ ~ @ 2 mul ~ 5 ^ add 3 copy 256 idiv put ~ 1 add ~ 256 mod put}for ~
+! ~ !}bind d/CIDT42Begin{25 dict `/CDevProc ~ d/CIDMap ~ d/CIDCount ~ d
+/CIDSystemInfo 3 dict @ ` 3 -1 $/Supplement ~ d 3 -1 $/Ordering ~ d 3 -1 $
+/Registry ~ d E d/CIDFontName ~ d/Encoding ~ d 4 array astore cvx/FontBBox ~ d
+/CharStrings 2 dict @ `/.notdef 0 d E d/GDBytes 2 d/CIDFontType 2 d/FontType 42
+d/PaintType 0 d/FontMatrix[1 0 0 1 0 0]d/Metrics2 16 dict d/sfnts}bind d
+/CIDT42End{CIDFontName & E/CIDFont defineresource !}bind d/T42CIDCP32K{/CIDFont
+findresource @ length dict copy @/FID undef `/CIDFontName ~ d/CIDMap ~ d
+/CIDCount ~ d/Metrics2 8 dict d CIDFontName & E/CIDFont defineresource !}bind d
+/T42CIDCPR{/CIDFont findresource @ length dict copy @/FID undef `/CIDFontName ~
+d &/CDevProc known{[/CDevProc , @ type/operatortype ne{/exec cvx}if/! cvx/! cvx
+/! cvx/! cvx 5/^ cvx 5/^ cvx 0.0 0.0]cvx}{{! ! ! ! ! 5 ^ 5 ^ 0.0 0.0}}? bind
+readonly/CDevProc ~ d CIDFontName & E/CIDFont defineresource !}bind d
+/T0AddT42Char{/CIDFont findresource/GlyphDirectory get ` d E ! !}bind d
+/T0AddT42Mtx2{/CIDFont findresource/Metrics2 get ` d E}bind d/UpdateCIDMap{
+/CIDFont findresource/CIDMap get 3 1 $ putinterval}d/AddXUID{version cvi 3011
+ge{/XUID ~ d}{!}?}bind d/hfDef42CID{/CIDFont findresource @ length dict copy @
+/FID undef `/CIDFontName 2 ^ d @ type @/booleantype ne{/arraytype eq{/CDevProc
+~ d}{matrix @ 4 4 -1 $ put/FontMatrix ~ d}?}{! !}? & E/CIDFont defineresource
+!}bind d/hfDefRT42CID{/CIDFont findresource @ length dict copy @/FID undef `
+/CIDFontName 1 ^ d &/CDevProc known{[/CDevProc , @ type/operatortype ne{/exec
+cvx}if/! cvx/! cvx/! cvx/! cvx 5/^ cvx 5/^ cvx 0.0 0.0]cvx}{{! ! ! ! ! 5 ^ 5 ^
+0.0 0.0}}? bind readonly/CDevProc ~ d & E/CIDFont defineresource !}bind d
+%%EndResource
+end reinitialize
+-0.02 -0.676 0.637 1.02
+ 256 array 0 1 255 {1 index exch /.notdef put} for  /TTE27FA768t00
+Type42DictBegin
+[<00010000000a000a000a000a63767420a5a561f1000000ac000007826670
+676dbadcf8730000083000000548676c79662c85a00b000037040003a124
+68656164c17d12d100000d7800000036686865610b7b023c00000db00000
+0024686d7478cda6ab3400000dd400000a226c6f63610a7a3a4c000017f8
+0000143c6d617870094f0c7500002c340000002070726570f4bad70d0000
+2c5400000aae6764697200000000000000000000000004e700000492001b
+04e7001e0362001e0000ffdf0000ffdf0000ffe2fe7e000004e70000fefd
+ffff02d70000005400000054000000000000000000540054009500540054
+0054014d005400540054006400d4006d009100970054013301ce00a90040
+000f005400d4000301000158003c0093007700d50055fff10054002100a3
+00ef002c00390068fffe0011007f00fe017d00a301020002000f003800d3
+00650090023c032b04eb0001002a013003ab0182002d003c005400960017
+00cf0158002aff0a003c00b3021d023c0002005400cb035f082cff30fff2
+01c004c9ff6200a2013c02d604ae00cc00ed01220400fe83ff8bff9bff9c
+000e00f4031dfdc3ff31ff6d0054005500600075007c007f0080009e00cd
+0159023d02bfff89001100580065007f00b700cb012b0400046000120052
+00550084009800b900be00cf00d800e50101010f0128018001d301d40500
+fdc4fec4ff49ff62ff6f0045004e00500080010f011d01250141025a035a
+03ad03d7fde3fee0ff1e0011005400760078007b008f009000ab00d700d9
+00db0103020a0254025503ad001b003d005a006200910093009e00a900c9
+00df01080134013a0140018601ac02760403fdc400030004001500390048
+005400640091009b00a300a500af00c400d000d100d700f100fe01030119
+012b0155015c017d0185018e019401a501ac01ae01eb020502d803030381
+04c604ebfed6ff0aff9affa9001b001b001c00200029002c0038004c006d
+00cd00ea0128012a012c013f01d2022b022c0301040cfdfefe33ff47ff7f
+ffc5ffd7002300270038003d00440045004d005700620079008300bb00c6
+00cd00cd00ce00e600f701010103010a0112011d01200123015201530175
+01ac01ad01ef01fd0216021d0238026c02b202d4032b03cd045704aefdb4
+fe15feb2feeffeffffabffb0ffc3ffcc000200540036003800430055005d
+00700073007c007f00b500bb00c500e400e900f501010106011f01280148
+014b0155019801ac01df01fc02000208027e02ac02ff033d039003c90419
+0498fe4efe6dfe98feb3ff34ff4d000100030005001900340034003a003c
+0055005900730082009100a300aa00ab00b300cc00d600ee0118011e0130
+01490156015801600168016f01700171017b017c018501a901b401bb01d6
+01db01ee020402060215022b022b02630282029302b402c402d602e40300
+035303580371037b039303b403d003e80410042c0430044d04600479047a
+05000503061608ccfc17fc6dfd62fd9afdc3fe2efe44fe6bfe8bfec1fed6
+fee2ff0bffbfffe500060030003c005900670073007d007f0086008e009f
+00a900aa00d600e100e700eb00f100f200f501030109011a011e011f012c
+013f01430149014d015601570159016601660168016a0175018001ab01b2
+01bc01c001c101c901cb01d201dc01ef02010215022e022e023b023d0255
+02660282029a02ab02b002d902d902f502f90326032c03320333033e0360
+0371038703880393039703dc03e50402041504310453047f04c705030564
+0596059b05c405c805ea0610065b00540054005400540000000000000000
+0000000003cc02c1043e036c00a00050020303ea02d2023c017d02fb01a7
+021d01c102f5021d035003500243023b000201bb0048006d0014079b0621
+0621021400100760000000000299022d03570426030c007400500000025a
+0286026000a601bc00fb02480152017603cd02a0025f039b0492043e01d7
+007f02c10400020d01f600410041013e01a901d3007102d6022d03af04ce
+00000000050803fc056d020dff8704e7050203d20000043d010203ca015a
+01ed0150021601c1013b028e0023015a011001ed00230149003900d9004d
+00b90157003804e0038c024a02db0039006c009301c103cc02bb006c02bb
+01a200f2003800fe01720150019c0331007e017100540039006a02940022
+02700222007c005500f30182011500d700fb01ab012402660004030d0263
+00d40259003c00d00112022e017e0034006d008b018a002c01fd01c000cc
+02910036016503befc19fd280201fced01b1034800b101fb04c904c90204
+00fb01c1021d01300108014000e100a3009b005500c60021032600a90038
+0005022c0003005d0060004c001102f5017c026c0069019803e901a50241
+004f0065037302460196fef504410333004100ba0119014306390800053c
+051d0434041504e7003e006700670000066804df05820067006703d303f4
+ff59ff21fe5f050efedc007a00d9004800db018b00b3004800da0116015e
+015104ff024b04ffff5600ab02af04dcff17010c012100d1ff300149feb5
+013c0124ff200171ff0b01510086005e06a9fd99048b04850475047c0000
+fffb007b00860092009a00c200d500a4001e00270039004c0054005c0062
+0069002d0030003200350038003e004200440049004c00500056005a0060
+00640066006e00710078009d00ac00b10040004b0055005e00620066006a
+007100730077007b007e00820087008c0091009600a600d102aa029f0321
+028802c50276026900da00da03c70340015600d40489047f005300240051
+011300690037003c001f008c008cffd3005a0029001b010f0134007f0054
+0054ffebffd6ffa8fdcf00a600a600920092064200eb064300004040403f
+3e3d3c3b3a3938373534333231302f2e2d2c2b2a29282726252423222120
+1f1e1d1c1b1a191817161514131211100f0e0d0c0b0a0908070605040302
+01002c4523466020b02660b004262348482d2c452346236120b02661b004
+262348482d2c45234660b0206120b04660b004262348482d2c4523462361
+b0206020b02661b02061b004262348482d2c45234660b0406120b06660b0
+04262348482d2c4523462361b0406020b02661b04061b004262348482d2c
+0110203c003c2d2c20452320b0cd442320b8015a51582320b08d44235920
+b0ed51582320b04d44235920b09051582320b00d44235921212d2c202045
+18684420b001602045b04676688a4560442d2c01b10b0a432343650a2d2c
+00b10a0b4323430b2d2c00b0172370b101173e01b0172370b10217453ab1
+0200080d2d2c45b01a234445b01923442d2c2045b00325456164b0505158
+45441b2121592d2cb00143632362b0002342b00f2b2d2c2045b000436044
+2d2c01b00643b00743650a2d2c2069b04061b0008b20b12cc08a8cb81000
+62602b0c642364615c58b00361592d2c45b0112bb0172344b0177ae4182d
+2c45b0112bb01723442d2cb01243588745b0112bb0172344b0177ae41b03
+8a45186920b01723448a8a8720b0a05158b0112bb0172344b0177ae41b21
+b0177ae45959182d2c2d2cb0022546608a46b040618c482d2c4b53205c58
+b002855958b00185592d2c20b0032545b019234445b01a23444565234520
+b00325606a20b009234223688a6a606120b01a8ab000527921b21a1a40b9
+ffe0001a45208a54582321b03f1b235961441cb114008a5279b319402019
+45208a54582321b03f1b235961442d2cb110114323430b2d2cb10e0f4323
+430b2d2cb10c0d4323430b2d2cb10c0d432343650b2d2cb10e0f43234365
+0b2d2cb11011432343650b2d2c4b525845441b2121592d2c0120b0032523
+49b04060b0206320b000525823b002253823b002256538008a63381b2121
+21212159012d2c4bb06451584569b00943608a103a1b212121592d2c01b0
+05251023208af500b0016023edec2d2c01b005251023208af500b0016123
+edec2d2c01b0062510f500edec2d2c20b001600110203c003c2d2c20b001
+610110203c003c2d2cb02b2bb02a2a2d2c00b00743b006430b2d2c3eb02a
+2a2d2c352d2c76b8026923701020b802694520b0005058b00161593a2f18
+2d2c21210c6423648bb84000622d2c21b08051580c6423648bb82000621b
+b200402f2b59b002602d2c21b0c051580c6423648bb81555621bb200802f
+2b59b002602d2c0c6423648bb84000626023212d2cb4000100000015b008
+26b00826b00826b008260f10161345683ab001162d2cb4000100000015b0
+0826b00826b00826b008260f1016134568653ab001162d2c4b53234b515a
+5820458a60441b2121592d2c4b545820458a60441b2121592d2c4b53234b
+515a58381b2121592d2c4b5458381b2121592d2cb0134358031b02592d2c
+b0134358021b03592d2c4b54b012435c5a58381b2121592d2cb012435c58
+0cb00425b00425060c6423646164b807085158b00425b00425012046b010
+60482046b0106048590a21211b2121592d2cb012435c580cb00425b00425
+060c6423646164b807085158b00425b00425012046b8fff060482046b8ff
+f06048590a21211b2121592d2c4b53234b515a58b03a2b1b2121592d2c4b
+53234b515a58b03b2b1b2121592d2c4b53234b515ab012435c5a58381b21
+21592d2c0c8a034b54b00426024b545a8a8a0ab012435c5a58381b212159
+2d2c462346608a8a462320468a608a61b8ff8062232010238ab903260326
+8a70456020b0005058b00161b8ffba8b1bb0468c59b0106068013a2d0001
+00000002999aaea50b135f0f3cf50809080000000000a325516100000000
+b24be01cffd4fa90051a082b0000000900010001000000000001000006a9
+fd99000004cdffd4ffd204fb000100000000000000000000000000000003
+04cd00670000000004cd0000000001eb010a00bb00e400bb00fe01e1025d
+012d00e20090012b00ba01cd00e600e500e400ab00c300d600c4011200d3
+00e7011301cd0138006200650094011300d700110057007f009e0058009f
+0080006b00e500ab005900800018002e006800b30068005800b9008f0053
+001000250050006300d5023d00e3013c00e4000001bc0090002d00ab007e
+008000d7007d005500bd00b400bf00bb0015006c0091002d008000ab00cf
+0092005b003b00380065009500ed0195023c019400bb00110011007f0058
+002e0068005300900090009000900090009000ab008000800080008000ba
+00ba00ba00ba006c00910091009100910091005b005b005b005b00fc0151
+00e4007c008f016f00ab005900000000000401bb013f006500120050006d
+0090006200940062005a00b0002b003600a700e101280126003d00100070
+00e601eb0018008900b100bb00530063007f006500110011006800110012
+0091fff100b300db01fd01250090009b0095006300670007006b0254000e
+001300fb01cd012b00e0003d0011005800110058005800e500e500e500e5
+00000068000000530053005300ba013c0128013c013a020001b101ba013b
+01d4013c005600bb00b900cf00d500ed023cfffd00810063009500b3002d
+0090010e017601550163000000000000009f0080007d00e500b900cf007f
+00ab007f00ab007effe502c40011009000110090009e007efffd00580080
+00580080008000bb008000bb008000bb002e006c002e006c006800910058
+00ab005800ab00b900cf008f0092008f00920053005b0053005b00d500ed
+00d500ed007f0067005a006200b5011b009800d0007bffe50112011b000e
+0002017d0002017d0002017d017d000200a9006500990090021d01000000
+021d021d0000021d0000021d00000000000000000000017d021d017d017d
+000000000000021d017d017d000000000000021d017d017d000000000000
+000000000000000000000000000000000000000000000000000002670000
+0000000000020002000f0002000f000200ae007c00260003000300020141
+00b800800002006c009f010f005a00090013fff30201012e00bb01410002
+0169016900ae016f00110090007f00ab007f00ab00580080005800800058
+00800080007d0080007d0080007d006b0055006b003e00e500bd00e500bd
+00e500bd00e500bd00ab00b4005900bf0092008000bb002e006c0080006c
+0000009100000091005800ab00b900cf008f007a0053005b0053005b0053
+005b0053005b002500380063009500d700110090001200100050007001cd
+0025003800250038002500380063009501fd013c0088005a000c0011000b
+001b020801d401bb01080040fffc00130041fff6002affd400f200110057
+0065005800d5006b00e50059000f0018002e00930068006400b300c4008f
+00630050001d003c00e500640062011b008b01bb0057010400460156008b
+00b3020f009e00410054004a0145009100ca00cf00570099004500750128
+005700910057007500580011007f007f00b900e500e500ab002300000011
+0077002c0064001100570057007f004a0058fffb00720028002800770023
+0018006b0068006400b3007f008f002c0063005000590029000400040002
+0002005700810016000f00900080007b0098005a008000140090003a003a
+00780033001f006b0091006b002d00ab00a6003c00770065004d00460021
+0021004b001800a60082002400830080008e009800ab00cf00bd00ba00b4
+0033ffee003e0078003c006b007f0098002b003100680225014a01490149
+022401b701b7019801980224014b0224023600b50198023c038b00b901cc
+00d0009e011500a300a001770149009200680173009500b400c0006d0085
+0176011c004f00c000f200fa00de00a200c500ac00cc00a0007a00850085
+01bf00f7005b00e8009500950000000000c000cc00b900cc00b900d000d0
+00d0009e011500a300a00165013800680173009500b400c00085011c004f
+00f200fa00a200c500ac00cc00a00177009e00b400fa00ac0243018c0160
+012401c701c700fb0201000001dc019701dc01dc01a301dc01ca01db01d9
+0164013f00f4017f01540137010801070127009601c700e6024a01d101f3
+010d0127011101450000000000000000000001ca02030201020301a201a4
+01ab016d01520000019c016201600025002500000000000b000600000000
+0110009e00000000009000650003000300000000000a000a0000000000aa
+007000f0009700f000f0009e009e00bf00bf00bf013f0090009000f00097
+00f00097018301d501c701a801ca0000001d002b002b0000001d002b002b
+002b002b0000001d00000000000000000000000000000000000000000000
+000000000000000000000000000000000000000000000000000000000000
+00000000000000000000000000000000019c019c025d012d000000140201
+010a00cb0197019700c400c001bc01f800aa007000000000020001f80025
+00250000000001c80184002500250000000000250025000000000110009e
+000000000110009e000000000110009e00000000019e0151019e01510090
+006500900065000600060000000000060006000000000000000000000000
+0000000000000000000c000a00000000000c000a00000000011a011c0000
+0000011a011c00000000000b00060000000000a600d60000000000b40038
+00000000010800710000000001b201b20000000000fe008e0000000001f3
+01840000000000c400c000aa007000aa00760000000000670099008200a1
+009c00d7009c00d7021901d101dc01dc0061004c019c01db01ca010d024a
+01a30197005d0020000501c701ca01ca01d501a8018301db01b201b2009c
+009c01ea01f501f50075006b01b501f401e30126026301bc01b0007f0041
+002601e001e301e301ee01c1019c01c7019e019e00d700d700c300ce00cd
+016a0174008e00cd00bc0000013c00950089017f011100ee00b900bc00bc
+00c7009a00750186015d015d01be01be01bc019a01df0000002500250000
+0000000b00060000000000f00097009e0000001d002b0000000001470147
+015800f300da01f801f800ce0000006800910053005b01c10199019801c4
+01cb01c001bb01c501ab01b9012b01240118015e0144037d00c800000000
+019f01bd01a501c301b701b7012b012b012b01280128012801ff01ff01ff
+01ff01ff01c401a8012801ff01ff01ff01ff01ff01ff01ff01ff01ff01ff
+0142012b0142012b00110090001100900011009000110090001100900011
+009000110090001100900011009000110090001100900011009000580080
+0058008000580080005800800058008000580080005800800058008000e5
+00ba00e500bd006800910068009100680091006800910068009100680091
+0068009100680091006800910068009100680091006800910053005b0053
+005b0053005b0053005b0053005b0053005b0053005b0063009500630095
+006300950011009000e500ba006800910053005b0053005b0053005b0053
+005b0053005b012f011400f5011400000000000000000070000000700000
+00700000007000000124000001cc000003ec0000064000000846000009f8
+00000a4c00000afa00000ba800000d6600000e2200000e8200000eb60000
+0f0200000fae000011f0000012fa00001476000016240000175e000018bc
+00001af400001bbc00001dd400001fbc00002042000020ee000021b40000
+22440000230e0000245a00002684000028c800002ac400002c4400002dd4
+00002f7a000030fe000032d0000035440000367c000037e200003ae40000
+3bb400003e7a00004068000042c40000443c000046aa000048ea00004a82
+00004b7a00004d2400004f00000052340000552800005754000058c60000
+5948000059d000005a4a00005b1200005b5200005bae00005daa00005f48
+000060b60000621200006350000064ac0000665c000068500000692a0000
+6a2800006d5600006e02000070c4000072ca0000746600007622000077f6
+0000796e00007c1e00007d6600007ed40000809e00008444000087820000
+89d000008b0800008c3400008c8a00008df400008ee000008f2a00008f76
+00008fa400008fda0000901c0000905600009092000090c4000090fe0000
+913c0000917c000091bc0000920c0000923c00009274000092a8000092d8
+0000930a0000933a0000936800009398000093c8000094060000943e0000
+9474000094a4000094dc000095180000954a0000957a000095aa000095dc
+00009690000097280000989400009a3e00009c1e00009c7e00009e1e0000
+9fd00000a2200000a3fa0000a69a0000a6fa0000a77a0000a8ac0000aba0
+0000ad7e0000aeca0000afda0000b0f20000b20c0000b4bc0000b5b40000
+b68c0000b7a20000b89c0000b9f40000bb4e0000bc6e0000bd7a0000bee2
+0000c1820000c30a0000c4420000c4f60000c56a0000c60c0000c72a0000
+c90c0000c9ac0000cb200000cc620000cd360000cd700000cdb20000cdee
+0000cf8a0000d1f20000d2400000d28e0000d3180000d3a20000d4080000
+d46e0000d5540000d5fc0000d6360000d66a0000d6b60000d87c0000d902
+0000d9880000db640000dd220000de340000de860000ded80000df6c0000
+e1ee0000e2400000e2800000e2b40000e2fa0000e32e0000e3640000e396
+0000e3ce0000e40c0000e43e0000e46e0000e4a80000e4dc0000e5120000
+e55a0000e60a0000e6aa0000e7740000e7c60000e83c0000e8880000e926
+0000e9fa0000eaec0000eb9a0000ec400000ee320000efb60000eff00000
+f0260000f05c0000f09a0000f18a0000f3340000f4fc0000f5300000f564
+0000f6f60000f83c0000f8ba0000fa100000fb0a0000fc520000fd6c0000
+ff2600010176000103c80001051c0001055000010586000105b8000105e8
+000106160001064a0001067c000106b2000106e6000108de0001092e0001
+0978000109b2000109ee00010a4200010a9400010ad400010c7c00010c8c
+00010ce000010d6400010da400010dd400010e0600010e3800010e700001
+0eb200010eea00010f2400010f5800010f8e00010fd20001100c00011042
+0001107c000110ae000110de000111200001115000011184000111b60001
+11e60001121400011246000113ea0001142c000114660001149a000114d4
+000115040001153c00011570000115a6000116a00001184a000119f80001
+1b7600011caa00011e1600011ef400011f9a000121160001219c000121d8
+000123340001260a000126ae0001276200012804000128a60001298e0001
+2a7000012b7600012bc400012c6800012d3600012db200012e1a00012e80
+00012ef000012f1a00012f4a00012f8200012fba00012ff20001302a0001
+3070000130b8000130fa0001313e0001319e000131e4000132380001328a
+000132e20001334e000133a0000133f800013464000134b6000135100001
+357c000135d00001362800013694000136f40001375e000137e600013848
+000138b20001393e000139a200013a0400013a8800013ae600013b4a0001
+3bce00013c6000013cfa00013dba00013de600013e1200013e4000013e6e
+00013e9e000142f000014b7c000153be000153e800015420000154640001
+54a0000154ee0001552a000156040001567200015758000158b4000159b6
+00015b5e00015c7600015e2800015f58000160b800016164000161de0001
+62a0000163b8000166200001680e0001683a00016890000168c400016a78
+00016b8800016bb200016bce00016c3c00016c7400016cee00016d220001
+6d5600016d9400016dce00016e0200016e3600016e6800016ea000016ee8
+00016f1c00016f5400016f8800016fca00016ffe000170340001706c0001
+7096000170cc0001710c0001730a000175aa000177bc000177ee00017822
+000178580001788c000178c2000178f200017a6400017bba00017bf40001
+7cf800017d2200017d4600017eba00017ede00017f0200017f2600017f56
+000180a20001823c0001826e000182a2000182d400018304000183280001
+834c00018382000183b600018554000186d2000187080001873e00018770
+000187a4000187d400018804000189ec00018b9c00018bd400018c0a0001
+8c4600018c7600018da400018df600018e4c00018e7c00018eaa00018eda
+00018f0800018f1800018f5000018f8800018fb800018fe60001901a0001
+904c00019084000190ba000190ca000190da000192640001933e000195ba
+0001989800019b3200019d8800019e1200019ea600019eb600019f860001
+a1ea0001a4100001a6980001a7c60001a9080001aaf20001acbc0001acf2
+0001ad020001ad120001adc60001add60001ade60001adf60001ae060001
+ae160001afd20001afe20001aff20001b1ba0001b1ca0001b35c0001b36c
+0001b4a40001b4b40001b4c40001b4d40001b6fa0001b8900001b8c80001
+b9060001b9340001b9680001b99c0001b9d00001ba120001bb320001bc56
+0001bd580001beb00001bfce0001c0360001c2420001c3f20001c5300001
+c6200001c7c20001c7d20001c8960001c9b60001cb080001ccaa0001cde0
+0001cf1a0001cf5c0001cf9e0001cfd20001d0000001d03a0001d08a0001
+d2140001d2460001d39c0001d3ac0001d3bc0001d3fe0001d40e0001d5a4
+0001d81a0001da020001da420001da920001dc4a0001dc5a0001dd800001
+dd900001dea60001dfe00001dff00001e4040001e58a0001e73e0001e784
+0001e9b00001eb180001eb280001eb380001eb480001ecda0001ecea0001
+ecfa0001ed0a0001eee60001f09e0001f0ae0001f2240001f3e60001f704
+0001fa080001fb300001fd760001feaa0001fedc000200b0000200f00002
+0100000202260002037000020480000205d4000205e40002096000020ab2
+00020c7200020cb400020ec20002102200021298000214a4000214b40002
+163a0002164a0002165a000217300002190600021ab600021ac600021c5c
+00021e3400022094000222ec0002241c0002264800022782000227b60002
+299800022b6600022b9800022d8800022db800022edc00022eec00022efc
+00022f3600022f46000230d20002333c0002352c00023566000235a40002
+373c00023828000239120002394600023bc400023d8400023de400023ee6
+00023f840002403a00024078000240ec00024196000241da0002423a0002
+428400024314000243580002439e000243da0002442a00024472000244aa
+000244e200024558000246c40002473c0002481600024882000249060002
+4958000249d000024a5c00024b3800024b8400024c0200024c9800024d86
+00024e1e00024f1200024f7a00024fd60002509200025156000252060002
+52cc00025390000254a600025588000255e8000256d000025762000257f8
+0002588c000259220002596e00025a0000025af200025b6a00025bbc0002
+5c0e00025c5400025ce000025d9c00025dcc00025dfc00025e2c00025e5c
+00025e8000025ea40002605a00026086000260b6000260e4000261080002
+613c000261760002629c000263160002634800026370000263cc000263f0
+0002641e0002651c0002661c0002671200026888000269d4000269fe0002
+6b1a00026b4c00026b7000026b9e00026bcc00026bfe00026d4200026d7e
+00026eca00026f8c00027040000270d8000271b8000272c6000273a80002
+73d6000274980002763a0002767c000276e4000277d80002780000027900
+000279d600027a5600027ad400027bb200027cda00027df000027e960002
+7f5000028008000280ac0002817600028250000282d6000283ba0002841a
+0002854a0002861a000286ac000287ca000288cc000289ce000289e60002
+8a1a00028a4000028d9000028df000028e8c00028eac0002903e00029230
+000293dc000295d0000297b80002981600029aee00029afe00029bde0002
+9c1c00029c5200029c7800029c8e00029cc200029cd800029d2c00029d86
+00029ddc00029e2e00029e8a0002a0ba0002a0d00002a0f60002a12a0002
+a1660002a3840002a5c60002a6f40002a81a0002a9aa0002ab620002acb8
+0002ae2c0002af340002b0540002b06c0002b0a40002b0de0002b10c0002
+b14e0002b1b20002b1f60002b36e0002b3c60002b5460002b67e0002b6ba
+0002b6e60002b71a0002b74c0002b78e0002ba2c0002bbf80002bd580002
+bf420002c09c0002c0c20002c0fa0002c12a0002c3620002c38e0002c3f4
+0002c44e0002c6da0002c7040002c9420002c99a0002c9d60002c9f60002
+ca0e0002ca4e0002ca720002caaa0002caf80002cb3e0002cb9e0002cbfe
+0002cc2e0002cc720002ccac0002ce040002ce3c0002cfcc0002cfe40002
+d1060002d1320002d1ec0002d3f80002d41e0002d5300002d57a0002d64c
+0002d6800002d6ac0002d6f00002d7200002d8ee0002d9760002d9ce0002
+da420002da6e0002dac40002dafa0002db3c0002dbb60002dc360002dd98
+0002e0040002e0140002e04e0002e0960002e0c60002e0f20002e1380002
+e17e0002e1c80002e2080002e23a0002e25a0002e2900002e2d20002e346
+0002e3dc0002e3f40002e40c0002e4240002e43c0002e48a0002e4d40002
+e4fc0002e5300002e56c0002e5aa0002e5ce0002e5fe0002e6420002e676
+0002e6d00002e7240002e73c0002e7540002e84e0002e9ce0002eaa20002
+ebda0002ec080002ec360002ec4e0002ec760002ed2a0002edd00002ee04
+0002ee2e0002eede0002efc00002efee0002f0120002f1a60002f3260002
+f46c0002f5c00002f5f00002f6200002f6540002f6880002f7c20002f948
+0002fa4a0002fb900002fbc00002fbf80002fc240002fc500002fd400002
+fe600002ff4e0003006e000300b8000301000003014000030182000302d2
+0003042a0003051c0003063200030660000306a4000306da000307160003
+074e0003078a000307cc000308120003098e00030b4200030b9600030be8
+00030d8400030f4600030f5600030f660003104c0003114c000311ca0003
+129600031396000313a600031476000315600003166c00031798000317ca
+000317fe0003180e000318f800031a6000031c2600031d3400031e5c0003
+1e6c00031e7c00031eb600032092000320d20003210a0003213800032174
+000321a8000321da000322120003224a00032380000324a2000324e20003
+24f400032506000325180003254e0003258600032598000325aa000325bc
+000325ce000325ec0003260a0003262a00032668000326ae0003271e0003
+2730000327420003275400032766000327780003278a0003279c000327ae
+000327c0000327f40003282c0003283e0003285000032862000328960003
+28da000328f80003290a0003291c0003292e0003294c0003295e00032970
+000329a6000329dc00032a3400032a5400032a6600032a7800032a8a0003
+2a9c00032aae00032ac000032aea00032afc00032b3a00032b7e00032b98
+00032baa00032bbc00032da000032ff00003300200033014000330260003
+30380003304a0003305c0003306e000332be000335300003385e00033870
+0003388200033894000338a6000338b8000338e600033906000339340003
+3976000339a8000339dc00033a8000033b5a00033c1a00033e3800033f1e
+0003401a000340ae00034162000342ac000343f2000344fe000346100003
+47640003487a00034a2600034b7e00034cba00034e1600034f4200035026
+000352360003549600035712000359b000035cfa00035d1000035d260003
+5ec600036158000363820003650c00036680000367ea0003685a000368ca
+0003693e000369b200036a2600036a9000036b4800036bfc00036cae0003
+6d6200036e1c00036ed600036f980003703e000370ca0003710800037296
+000373420003740c00037474000374dc0003754c000375bc000376740003
+772c000377e6000378a00003795a00037a1800037ad600037b9400037ba6
+00037bb800037bca00037bdc00037bee00037c6200037ccc00037d8a0003
+7d9c00037dae00037dc000037dd200037de400037df600037e0800037e1a
+00037e2c00037e3e00037ef800037fb20003806c00038126000381500003
+8176000381b4000381e000038246000382a00003830800038366000383bc
+0003840a00038460000384ae0003851000038560000385c4000386220003
+8684000386d40003873c000387ae0003880c00038858000388be0003890c
+0003893a000389620003898a000389ae000389e800038a1600038a5a0003
+8aa600038aec00038b3c00038b7000038bb000038be400038c2400038c6c
+00038cb000038cd400038cf800038d1e00038d4400038d6a00038d900003
+8db400038dd800038e1e00038e6a00038eb000038f0000038f3400038f78
+00038fac00038fec0003902c0003906e000390a0000390ce000391040003
+91360003915a0003917e000391ae000391dc000392080003922e00039254
+0003927a000392a4000392e0000393100003933e00039382000393b00003
+93da00039412000394420003947000039496000394bc000394e200039506
+0003952a0003955000039580000395ae000395ea00039624000396540003
+9684000396b4000396e200039712000397680003978e000397fe00039820
+000398b0000398da000399640003997a00039a1400039b9200039d8a0003
+9f2a0003a12400010000050e012200490072000500020010002f00410000
+039effff00030002b9ffc003c0b2553340b803c0b23a3340b803c0b30e24
+3280b803c0b30b0d3280b803c0b209333f412f03c0007003c000af03c000
+cf03c00004005f03c0007f03c000af03c00003001f03c0003f03c0005f03
+c0008f03c0000400a003bb00b003bb00c003bb00d003bb000400a003ba00
+b003ba00c003ba00d003ba0004003f03b8000103b703b6b2241f40b803b4
+b3192432ef411a03b300ff03b300020391038b0021001f035e038b002100
+1f035f038b0021001f038f038b002a001f0390038b002a001f038d038bb2
+3b1f0f4109038b000100ef038b00ff038b0002ffc0039cb2474f32b9ffc0
+039cb2373c32b9ffc0039bb2474f32b9ffc0039bb3373c321f4119039c00
+b0039c00c0039c00d0039c000400ef039c0001001f039b00b0039b00c003
+9b00d0039b000400ef039b0001ffc0039cb2212932b9ffc0039bb2212932
+b9ffc0039cb20f1632b9ffc0039bb20f1632410a035903560032001f0358
+03560032001f03570356b2321fbf41600355000100af0355000100a00354
+0001008f03540001005f03540001004f03540001007f03550001007f0354
+0001006f03550001006f03540001003f03550001003f03540001003f0354
+0001002f03540001002f03540001001f03540001000f0354000103520353
+0029001f0351034a0029001f035003450025001f034f034a0025001f034e
+03490025001f034d03470025001f034c034a0018001f034b03450012001f
+034a03460018001f034903450044001f034803460044001f03470346b244
+1f3041700346005f03450002000f0344001f0344002f0344003f03440004
+000f0344008f034400a0034400df03440004005f0344007f034400cf0344
+0003002f03440001034403440343034303410341000f0340001f0340002f
+0340000303400340033f033f033e033e000f033d0001033d033d0040033c
+0001001f033c002f033c003f033c004f033c005f033c00c0033c00d0033c
+0007033c033c00200335003003350040033500500335006003350005000f
+032c002f032c008f032c0003032c032d0024001f0321028c0014001f0320
+028c0014001f031f028b001e001f031e028bb21e1f40410902b4005002b4
+006002b4007002b4008002b4b205120f4114028b001f028b002f028b004f
+028b005f028b007f028b009f028b00af028b0008003f028b004f028b400b
+023f023f034f024f030440b80329b33c3c3240b80329b333363240b80329
+b31c1d3240b80329b30c1a320f41720329007f0329009f03290003000f03
+29002f0329003f03290003000f0329001f0329000200af032700bf032700
+cf032700df03270004000f0327004f0327005f0327008f0327009f032700
+af0327000600bf032700ef032700ff03270003006f0327007f0327008f03
+27009f032700af03270005000f0327001f0327002f0327004f0327005f03
+270005000f0328002f0328005f0328007f032800af0328000500df032800
+01000f0327000f032800500328008f032800bf0328000500df0322000100
+8f03220001003f0322004f03220002002f0322003f03220002000f032200
+1f0322b202090fb8028bb2013a0f4137028c004f028c0002000f028d002f
+028d003f028d0003002f028b0001002f028c003f028c004f028c008f028c
+00af028c000503b903b90329032903270327032803280322032203210321
+03200320031f031f031e031e02900290028f028f028e028e028d028d028c
+028c028b028b4014af2bbf2b025f356f357f358f359f35af35bf3507bb02
+61026102600260400a0016160000001211081a41100204005c000d01fa00
+5c000d01ad005c000d0172005c000d0140005c000d0117401a5c0de45c0d
+c85c0d995c0d955c0d585c0d4e5c0d465c0d2f5c0db8016240172b0ddb2b
+0d902b0d562b0d362b0d352b0d332b0d292b0d411101590157000d00be01
+57000d00420157000d00320157000d00220157000d001d0157b20d0009bc
+015b00210801001f0127b421811fe521b80401b21f8321b80801b21f8221
+b80401b21f5b21b80401b21f3b21b80801b61f3021671f2c21b80401b21f
+2621b80401b21f2421bd0401001f005501ac0007012b402c07c9075f0740
+0739072e072d072807270723071f071408120810080e080c080a08080806
+0804080208000814b8ffe0402b0000010014061000000100060400000100
+0410000001001002000001000200000001000002010802004a00b013034b
+024b5342014bb0c063004b6220b0f65323b8010a515ab005234201b0124b
+004b544218b0372b4bb807ff52b0382b4bb009505b58b101018e59b0382b
+b00288b801005458b801ffb101018e851bb0124358b90001012c858d1bb9
+0001012c858d59594bb0095058b104018d8d590016763f183f123e113946
+443e113946443e113946443e113946443e11394660443e11394660442b2b
+2b2b2b2b2b2b2b2b2b182b2b2b2b2b2b2b2b2b2b2b2b18b0372b1db0964b
+5358b0aa1d59b0324b5358b0ff1d594bb8040153205c58b9023802364544
+b90237023645445958b90a800238455258b902380a804459594bb8040153
+205c58b9002002384544b90021023845445958b90a800020455258b90020
+0a804459594bb8040153205c58b9001e02374544b90025023745445958b9
+0a80001e455258b9001e0a804459594bb8040153205c58b13d214544b121
+2145445958b90a80003d455258b9003d0a804459594bb8040153205c58b1
+67214544b1212145445958b90a800067455258b900670a804459594bb803
+0153205c58b121214544b1212145445958b907e00021455258b9002107e0
+4459594bb8030153205c58b121214544b11e2145445958b907e000214552
+58b9002107e04459594bb8030153205c58b121214544b1252145445958b9
+07e00021455258b9002107e04459592b2b2b2b2b2b2b2b2b2b2b65422b2b
+2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b2b01b9004a
+01d6b1437a456523456023456560234560b08b766818b080622020b90043
+01d64565234520b003266062636820b003266165b801d6236544b0432344
+20b14a7a4565234520b003266062636820b003266165b07a236544b04a23
+44b1007a455458b17a406544b24a404a4523614459b347612aad45652345
+6023456560234560b089766818b080622020b12a614565234520b0032660
+62636820b003266165b061236544b02a234420b147ad4565234520b00326
+6062636820b003266165b0ad236544b0472344b100ad455458b1ad406544
+b247404745236144594b5342014b5058b108004259435c58b108004259b3
+020b0a124358601b2159421610703eb0124358b93b21187e1bba040001a8
+000b2b59b00c2342b00d2342b0124358b92d412d411bba04000400000b2b
+59b00e2342b00f2342b0124358b9187e3b211bba01a80400000b2b59b010
+2342b0112342001845694445694473731845694445694445694445694445
+694445694445694445694445694445694445694445694445694445694445
+6944737373745e735e737373737473737473737374757373742b2b2b2b00
+7300737400435c58410c001f028b001f028d0002000f028b000f028c000f
+028d000373735974002b2b2b2b2b73750045694473744569447345694445
+6944456944734569444569444569447574737301732b2b2b2b2b2b2b2b2b
+2b2b2b0073737373737373737373737373737373732b2b2b012b002b012b
+002b017375007375012b2b002b2b0073752b2b2b2b2b2b0173012b012b73
+017300737374752b2b2b2b2b000000>
+[15285 13585 15069 16205 16261 15957 15829 15725 16105 16305 15925 16197 15977
+16021 17429 ] AllocGlyphStorage
+]def 
+108 44 
+PrepFor2015
+AddFontInfoBegin
+AddFontInfo
+/OrigFontType /TrueType def 
+/OrigFontName <436F7572696572204E6577> def
+/OrigFontStyle () def
+/FSType 0 def
+AddFontInfoEnd
+[16#2c 16#5541aa82 ] AddXUID
+Type42DictEnd
+1 0 0 <00020100000005000500000300070046b10607b8010cb40201000504b801
+0cb403000a0605b8010cb60303021a090704b8010cb6010019084f7b182b
+4e10f43c4dfd3c4e10f63c4d10fd3c003f3cfd3c3f3cfd3c313021112111
+2521112101000400fc2003c0fc400500fb002004c000>/TTE27FA768t00 AddT42Char 
+/TTE27FA768t00 findfont /CharStrings get begin
+/.notdef 0 def
+end
+/TTE27FA768t00 findfont /Encoding get
+dup 1 /.notdef put
+pop
+F /F2 0 /0 F /TTE27FA768t00 mF 
+/F2S52 F2 [82 0 0 -82 0 0 ] mFS
+F2S52 Ji 
+2787 5606 M <01>S 
+F0S52 Ji 
+2836 5606 M (Pt 100 Klimabereich)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+799 5693 M (0x13:)[49 49 49 49  0]xS 
+2297 5693 M (Ni 500 Kl.)[49 49 49 49 49 49 49 49 49  0]xS 
+F2S52 Ji 
+2787 5693 M <01>S 
+F0S52 Ji 
+2836 5693 M (Ni 500 Klimabereich)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+603 5780 M ( )S 
+603 5867 M (Eingang 0 - 1)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+701 5954 M (oberer Grenzwert)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+799 6041 M (0x03:)[49 49 49 49  0]xS 
+2297 6041 M (50/60/400Hz)[49 49 49 49 49 49 49 49 49 49  0]xS 
+799 6128 M (unterer Grenzwert:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6128 M (Nein)[49 49 49  0]xS 
+701 6215 M (Messung)[49 49 49 49 49 49  0]xS 
+799 6302 M (Me\337art:)[49 49 49 49 49 49  0]xS 
+2297 6302 M (Spannung)[49 49 49 49 49 49 49  0]xS 
+799 6389 M (Me\337bereich:)[49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6389 M (+/- 10 V)[49 49 49 49 49 49 49  0]xS 
+799 6476 M (Integrationszeit:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 6476 M (50 Hz)[49 49 49 49  0]xS 
+LH
+(%%[Page: 3]%%) = 
+%%PageTrailer
+
+%%Page: 4 4
+%%PageBoundingBox: 10 11 585 831
+%%EndPageComments
+%%BeginPageSetup
+/DeviceRGB dup setcolorspace /colspABC exch def
+mysetup concat colspRefresh
+%%EndPageSetup
+
+/DeviceGray dup setcolorspace /colspABC exch def
+0 0 scol F0S53 Ji 
+412 70 M (SIMATIC                     Band2b_Gruppe03/SIMATIC 300\(1\)           12.12.2005 9:49:47)
+[50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50
+49 50 49 50 50 49 50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49
+49 50 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50  0]xS 
+N 4732 95 M 405 95 I 405 103 I 4732 103 I 4732 95 I C 
+ L N 4736 6715 M 409 6715 I 409 6724 I 4736 6724 I 4736 6715 I C 
+ L 406 6800 M (                                                                          Seite 4 von 4)
+[49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49 50 49 50 49 50 50 49 50 49 50 50 49
+50 49 50 49 50 50 49 49 50 50 49 50 50 49 50 49 50 50 49 49 50 50 49 50 50 49 49 50 50 49 50 49
+50 50 49 50 50 49 49 50 50 49 50 49 50 50 49 50 50 49 49 50 50 49  0]xS 
+F0S52 Ji 
+591 306 M (0x0c)[49 49 49  0]xS 
+689 393 M (oberer Grenzwert:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 393 M (- - -)[49 49 49 49  0]xS 
+689 480 M (unterer Grenzwert:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 480 M (- - -)[49 49 49 49  0]xS 
+407 567 M ( )S 
+407 654 M ( )S 
+: 407 676 784 107 rc F1S5E Ji 
+407 755 M (Adre\337\374bersicht)[56 56 56 56 56 56 56 56 56 56 56 56 56  0]xS 
+; 407 848 M ( )S 
+407 935 M ( )S 
+407 1022 M (Adressen von:)[49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1022 M (CPU 315-2 DP)[49 49 49 49 49 49 49 49 49 49 49  0]xS 
+407 1109 M (Adre\337bereich von:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1109 M (0)S 
+407 1196 M (Adre\337bereich bis:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1196 M (1023)[49 49 49  0]xS 
+407 1283 M (Freie Adressvergabe:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1283 M (Ja)[49  0]xS 
+407 1370 M (Baugruppentr\344ger / Steckplatz:)[49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49 49  0]xS 
+2297 1370 M (0/2)[49 49  0]xS 
+407 1457 M ( )S 
+/F0S42 F0 [66 0 0 -66 0 0 ] mFS
+F0S42 Ji 
+407 1533 M (Baugruppe                   Adr. von     Adr. bis     Typ  TPA      DP        R   S   IF  )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+: N 407 1548 3600 3 rp C 
+ L ; 407 1604 M (DI32xDC24V                  0            3            E    OB1-PA   -         0   4   -   )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+407 1675 M (DI8/DO8x24V/0.5A            8            8            E    OB1-PA   -         0   6   -   )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+407 1746 M (AI2x12Bit                   304          307          E    ----     -         0   7   -   )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+407 1817 M (DP                          1023         1023         E*   -        -         0   2   1   )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+407 1888 M (DO32xDC24V/0.5A             4            7            A    OB1-PA   -         0   5   -   )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+407 1959 M (DI8/DO8x24V/0.5A            8            8            A    OB1-PA   -         0   6   -   )
+[40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40
+40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40 40  0]xS 
+407 2031 M ( )S 
+LH
+(%%[Page: 4]%%) = 
+%%PageTrailer
+
+%%Trailer
+%%BoundingBox: 10 11 585 831
+%%DocumentNeededResources: 
+%%+ font Courier
+%%+ font Courier-Bold
+%%DocumentSuppliedResources: 
+%%+ procset Pscript_WinNT_VMErrorHandler 5.0 0
+%%+ procset Pscript_FatalError 5.0 0
+%%+ procset Pscript_Win_Basic 5.0 0
+%%+ procset Pscript_Win_Utils_L2 5.0 0
+%%+ procset Pscript_Text 5.0 0
+%%+ procset Pscript_Encoding256 5.0 0
+%%+ procset Pscript_Win_Euro_L2 5.0 0
+%%+ procset Pscript_Win_GdiObject 5.0 0
+%%+ procset Pscript_Win_GdiObject_L2 5.0 0
+%%+ procset Pscript_T42Hdr 5.0 0
+Pscript_WinNT_Incr dup /terminate get exec
+ehsave restore
+%%Pages: 4
+(%%[LastPage]%%) = 
+%%EOF
+
